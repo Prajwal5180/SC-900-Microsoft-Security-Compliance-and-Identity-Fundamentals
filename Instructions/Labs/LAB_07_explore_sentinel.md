@@ -66,28 +66,28 @@ With the Microsoft Sentinel instance created, it is important that users that wi
 
 1. From the Resource groups page, select the resource group  with Microsoft Sentinel, **SC900-ResourceGroup**.
    
-    >**Note**: Working at the resource group level will ensure that any role that is selected will apply to all the resources that are part of the Microsoft Sentinel 
-     instance that was created in the previous task.
+     >**Note**: Working at the resource group level will ensure that any role that is selected will apply to all the resources that are part of the Microsoft Sentinel 
+      instance that was created in the previous task.
 
-    >**Note**:  For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary 
-     resources as shown in the description. It is important, however, to understand the available Sentinel specific roles. Note the current role is Owner.
+     >**Note**:  For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary 
+      resources as shown in the description. It is important, however, to understand the available Sentinel specific roles. Note the current role is Owner.
 
-    >**NOTE:**  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel: 
-     https://docs.microsoft.com/en-us/azure/sentinel/roles
+     >**NOTE:**  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel: 
+      https://docs.microsoft.com/en-us/azure/sentinel/roles
    
 1. Select the **Access Control (IAM)**, select **View my access** to confirm the owner role has been added, then close the window by select the **X** on the top-right 
    corner of the window.
    
-    >**Note**: For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary 
-    resources, as  shown in the description. It is important, however, to understand the available Sentinel specific roles.
+     >**Note**: For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary 
+      resources, as  shown in the description. It is important, however, to understand the available Sentinel specific roles.
    
-    >**Note the current role is Owner.**
+     >**Note the current role is Owner.**
 
 1. Return to the All services page of Azure, by selecting **All Services** from the top-left corner of the page, above where it says Resource groups.
 
 > - **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 <validation step="6ef79789-58a4-4dc4-a65e-8b5aacef02c1" />
