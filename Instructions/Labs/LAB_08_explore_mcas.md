@@ -38,7 +38,7 @@ In this lab, you will complete the following tasks:
 
      ![Picture 1](../Images/Asc-900-image16.png)
    
-1. On the **Cloud apps** page, Under **Cloud Discovery**, select **Snapshot Reports (2)**, and click **+ Create Snapshot Report (3)**.
+1. On the **Cloud apps** page, Under **Cloud Discovery**, select **Snapshot Reports (1)**, and click **+ Create Snapshot Report (2)**.
 
     ![Picture 1](../Images/Asc-900-image17.png)
  
@@ -56,7 +56,7 @@ In this lab, you will complete the following tasks:
 
 1. After the upload completes, click on **snapshot reports** link on **Create new Cloud Discovery snapshot report** page.
 
-      ![Picture 1](../Images/Asc-900-image20.png)
+      ![Picture 1](../Images/Asc-900-image21.png)
    
 1. After you upload your log files, it will take some minutes for them to be parsed and analyzed.
 
