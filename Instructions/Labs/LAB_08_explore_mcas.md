@@ -61,10 +61,15 @@ In this lab, you will complete the following tasks:
 1. After you upload your log files, it will take some minutes for them to be parsed and analyzed.
 
 1. Click on **Proccessing**, if you encounter error **All discovered cloud related transactions are more than 90 days** following the below subpoints else proceed with next step.
+
+    ![Picture 1](../Images/Asc-900-image30.png)
+
+    - Open the file you downloaded with Notepad and review the data.
+    - Here we need to changes the month ensure they fall within a 90-day period.
+    - Make sure the updated month and date are within the 90-day range, then save the file
+
+       ![Picture 1](../Images/Asc-900-image31.png)
     
-    - Open the file which you downloaded with notepade notice the data.
-    - Here we need to changes the month date which should be within 90 days period make the changes accordindly.
-    - Make sure you changes the month date whch should be within 90 days. And save the file.
     - On the **Cloud apps** page, Under **Cloud Discovery**, select **Snapshot Reports (2)**, and click **+ Create Snapshot Report (3)**.
     - Under **Report Details** tab, Enter a **Report name** and a **Description**.
     - Under **Upload Traffic Logs** Tab, In **Choose traffic logs** browse and upload the log file which you modified. Click **Upload logs >**.
@@ -76,7 +81,9 @@ In this lab, you will complete the following tasks:
 1. Wait till the status of your log files turns **Ready**.
 
     ![Picture 1](../Images/Asc-900-image29.png)
-    
+
+    >**Note** This may take 30–40 minutes to change to the Ready state. In the meantime, you can proceed with Task 2 and return once all tasks have been completed.
+
 1. Open a new tab  enter **admin.microsoft.com**
 
 1. Sign in with your admin credentials.
@@ -169,7 +176,13 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 
 1. Select **Compliance risk factor** to view the available options.  You can further filter by risk score, by moving the sliders on the risk score on the top of the page. If you moved the slide, be sure to set it so the range is set at 0 to 10.
 
+     ![Picture 1](../Images/Asc-900-image32.png)
+
 1. Admins can also search for apps by category.  For example, in the Apps search bar field enter **Microsoft Viva Engage**, then select **Social network**.  Select **Microsoft Viva Engage** for a detailed view.  Hovering your mouse over any topics for a given category will show an information icon that you can select to get more information about that topic.
+
+   ![Picture 1](../Images/Asc-900-image33.png)
+
+   ![Picture 1](../Images/Asc-900-image34.png)
 
 ## Task 3: Explore the Activity log and Files
 
@@ -219,12 +232,12 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 
 1. Close the browser window.
 
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   
-   - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> - **Congratulations** on completing the task! Now, it's time to validate it. 
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+<validation step="b4c3792a-aa76-445e-b825-9c9cc8b935f8"/> 
 
 ## Review
 In this lab, you have completed:
