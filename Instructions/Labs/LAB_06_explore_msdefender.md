@@ -96,7 +96,7 @@ Recall that Microsoft Defender for Cloud is offered in two modes: without enhanc
 1. From the Microsoft Defender for Cloud overview page, select the **Environment settings** from the left navigation panel.
 1. Expand the **Azure** list then select the **Existing Subscription** listed next to the yellow key icon.
 
-   ![Picture 1](../Images/sc900-6-8.png)
+     ![Picture 1](../Images/sc900-6-8.png)
       
 1. On the Defender plans page, notice how you can select Enable all or select individual Defender plans. 
 
@@ -104,7 +104,7 @@ Recall that Microsoft Defender for Cloud is offered in two modes: without enhanc
 
 1. Select **Save** from the top of the page.
    
-   ![Picture 1](../Images/sc900-6-2.png)
+     ![Picture 1](../Images/sc900-6-2.png)
       
 1. Close all the open browser tabs.
       
