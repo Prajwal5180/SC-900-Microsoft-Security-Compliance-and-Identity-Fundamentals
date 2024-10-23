@@ -118,20 +118,23 @@ Now that you have created a Core eDiscovery case, you can begin to work with the
 
     ![](../Images/sc-900-lab15-T2-4.png)
 
-1. In the name field, enter **Test hold** then select Next.
+1. In the name field, enter **Test hold** then select **Next**.
 
-    ![](../Images/sc-900-lab15-T2-5.png)
+    ![Picture 1](../Images/Asc-900-image42.png)
 
 1. In the Choose locations page, select toggle switch next to Exchange mailboxes to set the status to **On**, select **Choose users, groups, or teams** and select the **ODL-User-<inject key="DeploymentID" enableCopy="false" />** user and click on **Done**, select **Next**, for expediency with the lab, no other locations will be included in this hold.
     
-    ![](../Images/lab15-1-1.png)
-    
-1. The Query conditions page enables you to create a hold, based on specific Keywords or Conditions that are satisfied, select **+Add condition** to view the available options.  Select **Next**. Without any conditions, the hold will preserve all content in the specified location.
+    ![Picture 1](../Images/Asc-900-image43.png)
 
-    ![](../Images/sc-900-lab15-T2-7.png)
-    
-    ![](../Images/sc-900-lab15-T2-8.png)
+    ![Picture 1](../Images/Asc-900-image(43).png)
 
+    ![Picture 1](../Images/Asc-900-image(43)1.png)
+    
+1. The Query conditions page enables you to create a hold, based on specific Keywords or Conditions that are satisfied, select **Select a filter** to view the available 
+   options.  Select **Next**. Without any conditions, the hold will preserve all content in the specified location.
+
+    ![Picture 1](../Images/Asc-900-image44.png)
+    
 1. Review your settings and select **Submit**, it may take a minute, then select **Done**.  The Test hold should appear on the list.  If you don't immediately see it, select **Refresh**
 
     ![](../Images/sc-900-lab15-T2-9.png)
