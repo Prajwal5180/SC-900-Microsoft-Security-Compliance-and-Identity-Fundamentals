@@ -177,42 +177,12 @@ With a hold in place, you will create a search query.  Once your search is compl
 
     ![](../Images/sc-900-lab15-T2-16.png)
 
-1. From the bottom of the page, select **Actions**.  Note the available options. By selecting **Export results**, search results can be downloaded. 
+1. From the bottom of the page, select **Actions**.  Note the available options that include export options (the export options cannot be selected from within the lab 
+   platform provided by the authorized lab hoster, but are available in a production environment and are considered part of the standard workflow). Select **Close**.
 
       ![](../Images/sc-900-lab15-T2-18.png)
-    
-      ![](../Images/sc-900-lab15-T2-19.png)
-      
-1. From the Export results window, leave the defaults and select **Export** from the bottom of the page. You will automatically be returned to the **Test Hold - Sales search** window. Select **close** on the bottom of the page.
 
-      ![](../Images/sc-900-lab15-T2-20.png)  
-
-    **Note:** If the export fails with a permission error, please refresh and try to perform the export once again. 
-1. From the SC900-Test case page, select **Exports** from the top of the page.
-
-1. Select **Test Hold - Sales Search_Export**
-
-1. In the window that opens, **Test Hold - Sales Search_Export**, you will see an Export key, select **Copy to clipboard**.
-
-      ![](../Images/sc-900-lab15-T2-22.png)
-1. From the top of the window, select **Download results**.(**Note**: You must use Microsoft Edge or Internet Explorer to download). A new browser page opens and a pop-up window displays asking if you want to open this file, select **Open**.
-
-      ![](../Images/sc-900-lab15-T2-23.png)
-         
-      ![](../Images/sc-900-lab15-T2-024.png)
-1. If this is the first time you do a download of a content search, you will be prompted to install the Microsoft Office 365 eDiscovery Export tool.  Select **Install**.
-
-      ![](../Images/sc-900-lab15-T2-25.png)
-         
-1. Once the install is completed, the eDiscovery export tool window opens.  In the first field, paste the export key that you copied to your clipboard, paste it in now (Control V on your keyboard or right-click on your mouse and select paste). 
- 
-1. In the second field, Click on **Browse** and set the location to C:\LabFiles to store the downloaded file , then select **Start**.  Once the download process is completed, select **Close** and close this browser tab.
-
-      ![](../Images/sc-900-lab15-T2-26.png)
-      
-1. You are back on the "Test Hold - Sales Search_Export" window.  Select **Close**.
-
-1. Check the location of your download to verify the download was successfully completed. 
+1. Sign out and close all open browser windows. 
 
 ## Review
 In this lab, you have completed:
