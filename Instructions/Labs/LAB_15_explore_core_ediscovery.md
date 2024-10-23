@@ -37,9 +37,9 @@ To access Core eDiscovery or be added as a member of a Core eDiscovery case, a u
 
     ![](../Images/sc-900-lab15-1-02.png)
 
-1. From the left navigation pane of the Microsoft 365 Defender portal, select **Permissions**.  You may need to scroll down to see this option.
+1. From the left navigation pane of the Microsoft 365 Defender portal, expand **System** select **Permissions**.  You may need to scroll down to see this option.
 
-    ![](../Images/sc-900-lab15-1-3.png)
+    ![Picture 1](../Images/Asc-900-image35.png)
 
 1. From the Permissions page, under **Email & collaboration roles** select **Roles**.
 
@@ -47,10 +47,8 @@ To access Core eDiscovery or be added as a member of a Core eDiscovery case, a u
 
 1. In the search bar, type **eDiscovery** then click on Enter on your keyboard.  Select **eDiscovery Manager**.
 
-    ![](../Images/L15T1S8.1.png)
+    ![Picture 1](../Images/Asc-900-image36.png)
     
-    ![](../Images/L15T1S8-2.png)
-
 1. In the window that opens, notice how there are two sub-groups, eDiscovery Manager and eDiscovery Administrator. For this lab, we will add members to the eDiscovery Administrator sub-group.
 
 1. Select **Edit** 
@@ -71,6 +69,8 @@ To access Core eDiscovery or be added as a member of a Core eDiscovery case, a u
 
 1. On **You successfully updated the role group** window, click **Done**.
 
+     ![Picture 1](../Images/Asc-900-image37.png)
+
 1. Close all the tabs except the **admin.microsoft.com** and then **sign out** from the admin center page and **sign-in** back again to reflect the permissions added for users faster.
 
 ## Task 2: Create a case to start using Core eDiscovery
@@ -82,17 +82,22 @@ In this task you, as an eDiscovery Administrator (ODL admin is an eDiscovery adm
 
     ![](../Images/sc-900-lab15-1-2.png)
 
+    >**Note**: When **Welcome to the new Microsoft Purview portal** prompted click on **Go to classic portal**. Then **Welcome to the new Microsoft Purview portal** 
+     prompted click on **Go to classic portal**.
+
+      ![Picture 1](../Images/Asc-900-image38.png)
+
+      ![Picture 1](../Images/Asc-900-image39.png)
+   
 1. You are now in the Microsoft Purview. From the left navigation panel, select **Show all**.
 
-1. From the left navigation panel, under Solutions, expand **eDiscovery** then select **Standard**.
+1. From the left navigation panel, under Solutions, expand **eDiscovery** then select **Standard**. From the top of the Core eDiscovery page, select **+ Create a case**.
 
-1. From the top of the Core eDiscovery page, select **+ Create a case**.
-
-    ![](../Images/sc-900-lab15-T1-1.png)
+    ![Picture 1](../Images/Asc-900-image40.png)
 
 1. In the New case window, enter a Case name, **SC900 Test Case** then select the **Save** at the bottom of the page.
 
-    ![](../Images/sc-900-lab15-T2-2.png)
+    ![Picture 1](../Images/Asc-900-image41.png)
 
 1. The case should now appear on the list.
 
