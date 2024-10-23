@@ -155,6 +155,10 @@ In this task, you will see the impact of the conditional access policy, from the
 
    <validation step="b9582d28-5224-4989-bd2e-79d113c4f946" />  
 
+## Summary 
+
+In this lab, you went through the process of setting up a conditional access policy that blocks access to Microsoft admin portals for all users included in the policy.  Then, as a user you experienced the impact of the conditional access policy when accessing the Azure portal.
+
 ## Review
 In this lab, you have completed:
 - Reset the password for the user
