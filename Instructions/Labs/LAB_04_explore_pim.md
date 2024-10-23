@@ -38,10 +38,18 @@ In this task, you, as the admin, will reset the password for the user Diego Sici
   
 1. Select **Diego Siciliani** from the list of users.
 
+    ![](../Images/Asc-900-image60.png)
+   
 1. Select **Reset password** from the top of the page. Since you haven't previously signed in as Diego, you don’t know his password and will need to reset the password.
 
-1. When the password reset window opens, select **Reset Password** and copy the password.
+      ![](../Images/Asc-900-image61.png)
+   
+1. When the password reset window opens, select **Reset Password** and **Copy** the password.
 
+     ![](../Images/Asc-900-image63.png)
+
+     ![](../Images/Asc-900-image62.png)
+   
    >**Note**: Kindly make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
            
 1. From the left navigation panel, select **Home** to return the home page for the Microsoft Entra admin center.
@@ -56,11 +64,11 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 1. From the left navigation panel, under "Identity", expand **Identity Governance**, then select **Privileged Identity Management**, and in the Get started page, select **Manage** under Manage access.
 
-   ![](../Images/pim-gettingstarted.png)
+   ![](../Images/Asc-900-image64.png)
 
-1. You're now in the Roles page.  In the search bar, on the top of the page, enter **user**.  From the search results, select **User Administrator**.
+1. You're now in the **Roles** page.  In the search bar, on the top of the page, enter **user**.  From the search results, select **User Administrator**.
 
-   ![](../Images/L4T2S4.1.png)
+   ![](../Images/Asc-900-image65.png)
 
 1. From the top of the page, select **+ Add Assignments**.
 
@@ -68,11 +76,13 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 1. In the Add assignments page, ensure that **Membership** is underlined.  Here you will configure the membership settings for the user administrator role in PIM.
 
+   ![](../Images/Asc-900-image66.png)
+
 1. Leave the Scope type to its default value, Directory.  
 
-1. Under Select members, select **No members selected**. This opens the Select a member window. 
+1. Under Select members, select **No members selected**. This opens the Select a member window. In the search bar, enter **Diego**.  From the search results, select **Diego Siciliani** then press **Select** on the bottom of the page.  
 
-1. In the search bar, enter **Diego**.  From the search results, select **Diego Siciliani** then press **Select** on the bottom of the page.  
+   ![](../Images/Asc-900-image67.png)
 
 1. Under Select members you will see 1 Member(s) selected and the name and email of the selected member(s), Deigo Siciliani. From the bottom of the Add assignments page, select **Next**.
 
@@ -84,7 +94,7 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 1. In the Assignment end fields, change the date to today’s date (note the default setting is one year from today, so you need to change the year). For the time, set the time to two hours from the current time.  After you have set the time field for the time when the Assignment ends, press the tab key on your keyboard and select **Assign** at the bottom of the page.  
 
-    ![](../Images/pim-addassignment.png)
+    ![](../Images/Asc-900-image68.png)
 
 1. This takes you back to the Assignments window.  After a few seconds, you should see Diego Siciliani listed in the User Administrator table, along with the details of the assignment.  If after a few seconds you still don't see the update, select **Refresh** from the top of the page.
 
