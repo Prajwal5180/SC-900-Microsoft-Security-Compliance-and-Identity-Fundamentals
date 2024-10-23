@@ -91,7 +91,7 @@ In this lab, you will complete the following tasks:
 
 1. From the list of improvement actions, select **Enable self-service password reset**.  Each improvement action has an overview section along with the details page from which you can select implementation, testing, the related standards and regulatory requirements, and documents.
 
-     ![](../Images/7_1.png)
+     ![](../Images/L12T2S5.png)
 
 1. Exit out of this improvement action by selecting the **X** on the top right corner of the screen.  Alternatively, you select **Improvement Actions** from the breadcrumb on the top left of the page.  You are now back on the improvement actions page.
 
