@@ -97,6 +97,10 @@ Insider risk management uses Microsoft 365 audit logs for user insights and acti
 
 1. Once you land on the Audit page, wait 2-3 minutes.  If Auditing is NOT enabled, you will see a blue bar on the top of the page that says start recording user and admin activity.  Select **Start recording user and admin activity**.  Once auditing is enabled, the blue bar disappears.  If the blue bar is not present then auditing is already enabled, and no further action is required.
 
+1. When the pop-up appears, click "OK."
+
+   ![](../Images/ok_compliance-1.png)
+
 1. Return to the home page of the Microsoft 365 compliance center by selecting **Home** from the left navigation panel.
 
 1. Keep this browser tab open, as you will use it in the next task.
