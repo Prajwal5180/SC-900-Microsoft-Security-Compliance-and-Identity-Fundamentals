@@ -69,6 +69,8 @@ To access Core eDiscovery or be added as a member of a Core eDiscovery case, a u
 
    ![](../Images/image4.png)
 
+1. On **You successfully updated the role group** window, click **Done**.
+
 1. Close all the tabs except the **admin.microsoft.com** and then **sign out** from the admin center page and **sign-in** back again to reflect the permissions added for users faster.
 
 ## Task 2: Create a case to start using Core eDiscovery
