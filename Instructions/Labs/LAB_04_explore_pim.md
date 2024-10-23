@@ -32,8 +32,10 @@ In this task, you, as the admin, will reset the password for the user Diego Sici
 
    * Password: <inject key="AzureAdUserPassword"></inject>
    
-1. From the left navigation panel, expand **Identity**, expand **Users**, then select **All users**.  
+1. From the left navigation pane, expand **Identity**, expand **Users**, then select **All users**.
 
+     ![](../Images/Asc-900-image1.png)
+  
 1. Select **Diego Siciliani** from the list of users.
 
 1. Select **Reset password** from the top of the page. Since you haven't previously signed in as Diego, you don’t know his password and will need to reset the password.
