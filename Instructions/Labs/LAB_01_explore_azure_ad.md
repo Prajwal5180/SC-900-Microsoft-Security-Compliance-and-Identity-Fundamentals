@@ -225,6 +225,10 @@ In this task, you will sign in as Sara Perez, for the first time.
 
 1. **Sign out** from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then close all the browser windows.
 
+## Summary
+
+In this lab, you, as an admin, went through the process of enabling self-service password reset. With SSPR enabled, you'll then assume the role of a user to go through the process of registering for SSPR and also resetting your password. Lastly, you as the admin, learn where to access audit logs and usage & insights data for SSPR.
+
 ## Review
 In this lab, you have completed:
 - Accessing  Microsoft Entra ID through the Microsoft 365 Admin portal and through the Azure portal
