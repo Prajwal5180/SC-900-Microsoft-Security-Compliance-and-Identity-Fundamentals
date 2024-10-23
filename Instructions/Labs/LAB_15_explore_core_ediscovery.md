@@ -147,23 +147,25 @@ With a hold in place, you will create a search query.  Once your search is compl
 
 1. Open the SC900 Test case tab on your browser.
 
-1. From the Holds page of the case, select **Searches**.
+1. From the Holds page of the case, select **Searches** > **+ New Search**.
 
-1. From the Search page, select **+ New Search**.
-
-    ![](../Images/sc-900-lab15-T2-10.png)
+    ![Picture 1](../Images/Asc-900-image45.png)
 
 1. In the Name field, enter **Test Hold – Sales Search**, then select **Next** from the bottom of the page.
 
-    ![](../Images/sc-900-lab15-T2-11.png)
+    ![Picture 1](../Images/Asc-900-image46.png)
 
 1. In the Choose locations page, select toggle switch next to Exchange mailbox to set the status to **On**, select **Choose users, groups, or teams (1)** and select the **ODL-User-<inject key="DeploymentID" enableCopy="false" />** (2)** user and click on **Done (3)**, select **Next**.  
 
-    ![](../Images/lab15-1-2.png)
+    ![Picture 1](../Images/Asc-900-image47.png)
+
+    ![Picture 1](../Images/Asc-900-image48.png)
+
+    ![Picture 1](../Images/Asc-900-image49.png)
 
 1. The Query conditions page enables you to create a search, based on specific Keywords or Conditions that are satisfied, In the keyword field enter **Sales** select **Next**.
 
-    ![](../Images/sc-900-lab15-T2-13.png)
+    ![Picture 1](../Images/Asc-900-image50.png)
 
 1. Review your settings and select **Submit**, it may take a minute, then select **Done**.  The search should appear on the list.  If you don't immediately see it, select **Refresh**
 
@@ -171,7 +173,7 @@ With a hold in place, you will create a search query.  Once your search is compl
     
      ![](../Images/sc-900-lab15-T2-15.png)
 
-1. From the Searches window, select the search you just created, **Test Hold - Sales Search**.  A window that opens with the Summary tab selected.  Once the search is complete the status will indciate that the search is completed.  You will see a Search statistics tab (if you don't see the Search statistics tab, the search may still be running and may take a few minutes to complete).  Select the **Search statistics** tab and select the drop-down next to Search content.  You can also view more information for the Condition report and Top locations.  
+1. From the Searches window, select the search you just created, **Test Hold - Sales Search**.  A window that opens with the Summary tab selected.  Once the search is complete the status will indciate that the search is completed.  You will see a Search statistics tab (if you don't see the Search statistics tab, the search may still be running and may take a few minutes to complete). 
 
     ![](../Images/sc-900-lab15-T2-16.png)
 
