@@ -59,7 +59,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
    ![](../Images/password-reset-properties1.png)
 
-1. Once you Microsoft Entra ID group is selected, make sure that it appears under **Select group (1)** and then click on **Save (1)**.
+1. Once your Microsoft Entra ID group is selected, make sure that it appears under **Select group (1)** and then click on **Save (1)**.
 
    ![](../Images/password-reset-properties2.png)
 
@@ -73,7 +73,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
    ![](../Images/select-created-group.png)
  
-1. From the left navigation pane, select **Members (2)** under **Manage (1)**.
+1. From the left navigation pane, select **Members (2)** under **Manage (1)** section.
 
    ![](../Images/choose-members.png)
 
@@ -97,13 +97,13 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
    ![](../Images/select-users1.png)
 
-1. Select **Reset password (1)** from the top of the page. Since you have not previously signed in as Adele Vance, you will need to reset the password
+1. Select **Reset password (1)** from the top of the page. Since you have not previously signed in as **Adele Vance**, you will need to reset the password
 
 1. When the Reset password window opens, select **Reset Password (2)**.  
 
    ![](../Images/Passwordreset1.png)
 
-   >**IMPORTANT**: Make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
+   >**IMPORTANT**: Make a note of the new **password**, as you will need it in a subsequent task, to be able to sign in as the user.
 
    ![](../Images/temp-pass-save.png)
    
@@ -151,13 +151,13 @@ In this task, you, as the admin, will learn how to configure Password reset for 
 
    ![](../Images/password-reset-auditlog-usage.png)    
 
-1. **Sign out** from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
+1. **Sign out** from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then close all the browser windows.
 
 ## Task 3: Registration process for a self-service password reset
 
 >**Important:** Before proceeding with this task, in your Mobile phone, download the **Microsoft Authenticator App**.
 
-In this task, you, as user Adele Vance, will go through the registration process for a self-service password reset.  This task requires that you have access to a mobile device where you can receive text messages.
+In this task, you as user **Adele Vance**, will go through the registration process for a self-service password reset.  This task requires that you have access to a mobile device where you can receive text messages.
  
 1. Open Microsoft Edge.
 
@@ -168,15 +168,16 @@ In this task, you, as user Adele Vance, will go through the registration process
     ![](../Images/use-another-acc.png)
 
 1. Sign in as Adele Vance,
-    1. In the Sign in window enter **adelev@azureholxxxxx.onmicrosoft.com** (where xxxxxx can be found in the **Environment** Tab beside the Lab Guide section) then select **Next**.
+
+    - In the Sign in window enter **adelev@azureholxxxxx.onmicrosoft.com** (where xxxxxx can be found in the **Environment** Tab beside the Lab Guide section) then select **Next**.
        
        ![](../Images/username-env.png)
 
        ![](../Images/username-enter.png)
        
-    3. Enter the password you noted in the earlier task. Select **Sign in**.
+    - Enter the password you noted in the earlier task. Select **Sign in**.
   
-       >**Note:** If you face any issue while entering the password which states to either incorrect password. Login as <inject key="AzureAdUserEmail"></inject> to the Azure portal reset the password for the user again and note the Temporary password [ Follow step 19 and 20 from Task 1 ]
+       >**Note:** If you face any issue while entering the password which states to either incorrect password. Login as <inject key="AzureAdUserEmail"></inject> to the Azure portal reset the password for the user again and note the Temporary password Follow step 19 and 20 from Task 1.
 
        ![](../Images/password-enter.png) 
 
@@ -192,8 +193,9 @@ In this task, you, as user Adele Vance, will go through the registration process
 
    ![](../Images/Actionrequired1.png) 
 
-1. In the Keep your account secure window, The window that appears and the steps that follow are for the Microsoft Authenticator app method.Select **I want to set up a different authenticator app (1)**
-   > **Note**: If you dont have the Microsoft Authenticator app installed on your mobile device , select **Download now** and follow the steps.
+1. In the Keep your account secure window, The window that appears and the steps that follow are for the Microsoft Authenticator app method. Select **I want to set up a different authenticator app (1)**
+
+   > **Note**: If you don't have the Microsoft Authenticator app installed on your mobile device , select **Download now** and follow the steps.
 
    ![](../Images/auth0.png)
 
@@ -223,7 +225,7 @@ In this task, you, as user Adele Vance, will go through the registration process
 
    ![](../Images/auth8.png)
 
-1. You'r sign-in has been completed now. You should be on the Office 365 landing page. If you see that your sign-in time has expired, just reenter the password, SC900-Lab.
+1. You'r sign-in has been completed now. You should be on the **Office 365** landing page. If you see that your sign-in time has expired, just re-enter the password, SC900-Lab.
 
    ![](../Images/MS365.png)
    
@@ -244,13 +246,13 @@ In this task, you, as user Adele Vance, will go through the process of resetting
 
 1. Go to [login.microsoft.com](https://login.microsoft.com) portal.
 
-1. Sign in as Adele Vance, by entering your email **Adele@azureholxxxx.onmicrosoft.com** (user email id of Adel Vance)and select the **Next** button. You may, instead, see a Pick an account window open, if so, select the account for Adele Vance.
+1. Sign in as **Adele Vance**, by entering your email **Adele@azureholxxxx.onmicrosoft.com** (user email id of Adel Vance)and select the **Next** button. You may, instead, see a Pick an account window open, if so, select the account for **Adele Vance**.
 
 1. From the Enter password window, select **Forgot my password**.
 
    ![](../Images/forget-pass-0.png)   
 
-1. The Get back into your account window opens. Verify that the email for Adele Vance, Adele@azureholxxxx.onmicrosoft.com, is shown in the email or username box.  If not, enter it. In the empty box, enter the characters displayed in the image or the words from the audio. Once you have entered them, select **Next**.
+1. The Get back into your account window opens. Verify that the email for **Adele Vance**, **Adele@azureholxxxx.onmicrosoft.com**, is shown in the email or username box.  If not, enter it. In the empty box, enter the characters displayed in the image or the words from the audio. Once you have entered them, select **Next**.
 
    ![](../Images/forget-pass.png)
 
@@ -266,9 +268,9 @@ In this task, you, as user Adele Vance, will go through the process of resetting
 
    ![](../Images/Forget-pass-3.png)
 
-1. From the Pick an account information box, select **Adele@azureholxxxx.onmicrosoft.com**, enter your new password, then select the **Sign in** button.  If you are prompted to Stay signed in. select **No**.
+1. From the Pick an account information box, select **Adele@azureholxxxx.onmicrosoft.com**, enter your new password, then select the **Sign in** button. If you are prompted to Stay signed in. select **No**.
 
-1. You should now be on the Office 365 Page.
+1. You should now be on the **Office 365** Page.
 
    ![](../Images/MS365.png)
 
@@ -313,8 +315,6 @@ In this task, you, as the administrator, will briefly view the Audit logs and th
 1. From the top of the page select **Usage** to view the number of Self-service password resets and account unlocks by the method.  Note that it may take time to refresh this data, even after you do a refresh, so it may not yet reflect the usage data from the previous task.
 
 1. Close the open browser tabs.
-
-## Review
 
 ## Review
 In this lab, you have completed:
