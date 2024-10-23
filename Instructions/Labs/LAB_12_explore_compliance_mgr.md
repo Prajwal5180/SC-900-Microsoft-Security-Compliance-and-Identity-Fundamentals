@@ -36,33 +36,37 @@ In this lab, you will complete the following tasks:
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-     ![](../Images/module4/lab12/1-1.png)
+     ![](../Images/L12T1S6.png)
 
 1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview compliance center.
 
-     ![](../Images/module4/lab12/1.png)
+     ![](../Images/L12T1S7.png)
+
+    >**Note:** If the Compliance launches new UI of Microsoft Purview account turn off the feature by clicking the button as highlighted in below image.
+
+     ![](../Images/L12T1Note.png)
      
 1. The card section on the home page shows you, at a glance, how your organization is doing with your compliance posture, what solutions are available for your organization, and more.
 1. From the main window, scroll down to view the different cards. The cards available on the home screen and the position of the cards can be changed to accommodate each administrator’s preference.  
 1. Placing your mouse cursor over the title bar of any card turns the title bar grey.  When you see the cursor turn into a cross shape, you can move the card to your desired location.
 
-     ![](../Images/module4/lab12/2-1.png)
+     ![](../Images/L12T1S10.png)
      
 1. On the title bar of every card, you will also see an ellipsis that provides actions you can take.  Select the ellipses on the Solution catalog and select **Remove**.
     
-     ![](../Images/module4/lab12/2.png)
+     ![](../Images/L12T1S11.png)
      
 1. You can add cards, by selecting **+ Add cards**.  The Add cards to your home page window opens.  Place your mouse cursor over the Solution catalog card shown in this window and drag it over to the location on your home screen where you want the card to be positioned.
 
-     ![](../Images/module4/lab12/3.png)
+     ![](../Images/L12T1S12.png)
      
 1. As the compliance admin, there may be a set of solutions that you manage for our organization and that you want to have always listed on the navigation panel.  To customize to your preferences select **Customize navigation**. 
 
-     ![](../Images/module4/lab12/4.png)
+     ![](../Images/L12T1S13.png)
      
 1. From the Customize your navigation pane window, select **compliance  Manager**  and **Catalogue**.  Select **Save (3)** on the bottom of the window.  Notice how the Solutions section of the navigation panel has been updated.
 
-     ![](../Images/catalogue_01.png)
+     ![](../Images/L12T1S14.png)
     
 1. From the left navigation panel of the Microsoft 365 compliance center home page, notice that under Solutions only Catalog is displayed.  From the left navigation panel, select **...Show all**.  Notice how all the additional solutions appear under the solutions section.  
 
@@ -87,7 +91,7 @@ In this lab, you will complete the following tasks:
 
 1. From the list of improvement actions, select **Enable self-service password reset**.  Each improvement action has an overview section along with the details page from which you can select implementation, testing, the related standards and regulatory requirements, and documents.
 
-     ![](../Images/7_1.png)
+     ![](../Images/L12T2S5.png)
 
 1. Exit out of this improvement action by selecting the **X** on the top right corner of the screen.  Alternatively, you select **Improvement Actions** from the breadcrumb on the top left of the page.  You are now back on the improvement actions page.
 
