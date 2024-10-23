@@ -21,7 +21,7 @@ In this lab, you will complete the following tasks:
 ## Task 1: Add specific users as members of the eDiscovery Manager role group
 To access Core eDiscovery or be added as a member of a Core eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
 
-1. If you not alredy login to admin center, in the address bar of Microsoft edge enter **admin.microsoft.com**.
+1. If you not already login to admin center, in the address bar of Microsoft edge enter **admin.microsoft.com**.
 
 1. On **Sign in** blade, you will see a login screen, in that enter the following email/username 
  
@@ -114,7 +114,7 @@ Now that you have created a Core eDiscovery case, you can begin to work with the
 
 1. From the Core eDiscovery page, select the case you created in the previous tab, **SC900 Test Case**. 
 
-1. From the Home page of the case, select the **Hold** tab then select **+Create**.
+1. From the Home page of the case, select the **Hold** tab then select **+ Create**.
 
     ![](../Images/sc-900-lab15-T2-4.png)
 
@@ -155,13 +155,13 @@ With a hold in place, you will create a search query.  Once your search is compl
 
     ![Picture 1](../Images/Asc-900-image46.png)
 
-1. In the Choose locations page, select toggle switch next to Exchange mailbox to set the status to **On**, select **Choose users, groups, or teams (1)** and select the **ODL-User-<inject key="DeploymentID" enableCopy="false" />** (2)** user and click on **Done (3)**, select **Next**.  
+1. In the Choose locations page, select toggle switch next to Exchange mailbox to set the status to **On**, select **Choose users, groups, or teams (1)** and select the **ODL-User-<inject key="DeploymentID" enableCopy="false" /> (2)** user and click on **Done (3)**, select **Next**.  
 
     ![Picture 1](../Images/Asc-900-image47.png)
 
     ![Picture 1](../Images/Asc-900-image48.png)
 
-    ![Picture 1](../Images/Asc-900-image49.png)
+    ![Picture 1](../Images/Asc-900-image(49).png)
 
 1. The Query conditions page enables you to create a search, based on specific Keywords or Conditions that are satisfied, In the keyword field enter **Sales** select **Next**.
 
