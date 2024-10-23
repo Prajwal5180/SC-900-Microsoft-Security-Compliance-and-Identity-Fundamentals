@@ -51,7 +51,7 @@ To access Core eDiscovery or be added as a member of a Core eDiscovery case, a u
     
     ![](../Images/L15T1S8-2.png)
 
-1. In the window that opens, notice how there are two sub-groups, eDiscovery Manager and eDiscovery Administrator.  Read the description of each.  For this lab, we will add members to the eDiscovery Administrator sub-group.
+1. In the window that opens, notice how there are two sub-groups, eDiscovery Manager and eDiscovery Administrator. For this lab, we will add members to the eDiscovery Administrator sub-group.
 
 1. Select **Edit** 
 
