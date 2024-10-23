@@ -126,7 +126,7 @@ Now that you have created a Core eDiscovery case, you can begin to work with the
     
     ![Picture 1](../Images/Asc-900-image43.png)
 
-    ![Picture 1](../Images/Asc-900-image(43).png)
+    ![Picture 1](../Images/Asc-900-image(433).png)
 
     ![Picture 1](../Images/Asc-900-image(43)1.png)
     
