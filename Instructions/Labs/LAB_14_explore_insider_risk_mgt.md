@@ -102,26 +102,35 @@ In this task you will walk through the settings associated with the Insider Risk
 
     ![](../Images/sc-900-lab14-T3-1.png)
 
-1. Before getting started with setting up a policy, there are some settings that need to be configured.  From the Insider Risk Management page, select the **setting cog icon** on the top-right corner of the page to access Insider Risk settings.
-**Note:** If you see a list at the top, select **Privacy** from it before performing the next step. 
+1. Before getting started with setting up a policy, there are some settings that need to be configured.  From the Insider Risk Management page, select the **setting cog 
+   icon** on the top-right corner of the page to access Insider Risk settings.
+
+   **Note:** If you see a list at the top, select **Privacy** from it before performing the next step. 
     
-    i. Privacy tab:  for users who perform activities matching your insider risk policies, this setting will determine whether to show their actual names or use anonymized versions to mask their identities.  Select **Do not show anonymized versions of usernames** then select **Save**.  Select the  **Policy indicators** tab.
+   i. Privacy tab:  for users who perform activities matching your insider risk policies, this setting will determine whether to show their actual names or use 
+      anonymized versions to mask their identities.  Select **Do not show anonymized versions of usernames** then select **Save**.  Select the  **Policy indicators** 
+      tab.
 
       ![](../Images/sc-900-lab14-T3-2.png)
     
-    ii. Policy indicators tab: Once a policy triggering event occurs, activities that map to the selected indicators are used in determining the risk score, for the user. Policy indicators selected here are included the Insider risk policy templates.  Scroll to view all the indicators available and any associated information. Under **Office indicators**, select **Select all**, scroll down and then select **Save**.  Select the **Policy timeframes** tab.
+   i. Policy indicators tab: Once a policy triggering event occurs, activities that map to the selected indicators are used in determining the risk score, for the user. 
+      Policy indicators selected here are included the Insider risk policy templates.  Scroll to view all the indicators available and any associated information. Under 
+      **Office indicators**, select **Select all**, scroll down and then select **Save**.  Select the **Policy timeframes** tab.
 
       ![](../Images/sc-900-lab14-T3-3.png)
    
-   iii. Policy timeframes tab:  The timeframes you choose here go into effect for a user when they trigger a match for an insider risk policy.   The Activation window determines how long policies will actively detect activity for users and is triggered when a user performs the first activity matching a policy. Past activity detection Determines how far back a policy should go to detect user activity and is triggered when a user performs the first activity matching a policy.  Leave the default values.  Select the **Intelligent detections** tab.
+   i. Policy timeframes tab:  The timeframes you choose here go into effect for a user when they trigger a match for an insider risk policy.   The Activation window 
+      determines how long policies will actively detect activity for users and is triggered when a user performs the first activity matching a policy. Past activity 
+      detection Determines how far back a policy should go to detect user activity and is triggered when a user performs the first activity matching a policy.  Leave the 
+      default values.  Select the **Intelligent detections** tab.
 
       ![](../Images/sc-900-lab14-T3-4.png)
    
-    iv. Intelligent detections tab:  Review the options here.  Note the domains settings and how they relate to the indicators.
+   i. Intelligent detections tab:  Review the options here.  Note the domains settings and how they relate to the indicators.
 
       ![](../Images/sc-900-lab14-T3-5.png)
    
-    v. Other items listed in the settings are in preview.  Explore these at will and note that as a preview, they are subject to change.
+   i. Other items listed in the settings are in preview.  Explore these at will and note that as a preview, they are subject to change.
 
 1. To return to the Insider risk management overview, select **Insider risk management** from the top-left corner of the page, above where it says Settings.
 
