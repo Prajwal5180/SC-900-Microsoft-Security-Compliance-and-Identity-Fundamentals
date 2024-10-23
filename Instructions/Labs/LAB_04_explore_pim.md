@@ -98,6 +98,8 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 1. This takes you back to the Assignments window.  After a few seconds, you should see Diego Siciliani listed in the User Administrator table, along with the details of the assignment.  If after a few seconds you still don't see the update, select **Refresh** from the top of the page.
 
+    ![](../Images/Asc-900-image69.png)
+
 1. From the top of the page, select **Settings**.
 
 1. In the Role setting details for the User Administrator, notice the different options.Note that the setting to “Require justification on activation” is set to yes, and “On activation, require Azure MFA” is also set. You will see both of these in the next task when Diego activates the role.  Also, note that “Require approval to activate” is set to No. Leave all the settings to their default values. Close the page by selecting the **X** on the top right corner of the screen.
@@ -168,11 +170,11 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
 
 1. As a Microsoft Entra ID user administrator, you can create users and groups, manage licenses, and more. From the Microsoft Entra admin center page, search and select **Groups**.
 
-    ![](../Images/new-lab8-1.png)
+    ![](../Images/Asc-900-image70.png)
 
 1. Select **All groups** from the left pan and select **New Group**.
 
-    ![](../Images/new-lab8-4.png)
+    ![](../Images/Asc-900-image71.png)
 
 1. You will be navigated to New Group tab, provide the name of the group as **Mark 8 Project Team** and select **Create** keeping rest of the settings as default.
 
@@ -183,23 +185,20 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
     | Group description | Provide group description as per your need |
     | Membership type | **Assigned** |
 
-    ![](../Images/new-lab8-2.png)
+    ![](../Images/Asc-900-image72.png)
 
 1. From the left navigation panel, expand **Identity**, select **All Users** from the **Users** section.
 
 1. From the users list, select **Bianca Pisani**.
 
-    ![](../Images/select-bianca.png)
+    ![](../Images/Asc-900-image73.png)
 
 1. From the left navigation panel, select **Groups**.
 
-1. Notice the groups to which Bianca is already assigned. From the top of the page, select **+ Add Memberships**.
+1. Notice the groups to which Bianca is already assigned. From the top of the page, select **+ Add Memberships**. From the list of groups, select **Mark 8 Project Team** 
+   > **Select**.
 
-1. From the list of groups, select **Mark 8 Project Team**.
-
-1. From the bottom of the page, select **Select**.
-
-    ![](../Images/new-lab8-3.png)
+    ![](../Images/Asc-900-image74.png)
 
 1. On the Groups page, notice that the **Mark 8 Project Team group** has been added to the list (if you don't immediately see it in list, select the **Refresh** button).
 
