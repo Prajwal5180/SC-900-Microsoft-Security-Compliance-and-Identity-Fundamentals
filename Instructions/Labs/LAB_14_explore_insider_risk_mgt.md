@@ -65,7 +65,7 @@ In this task, you, as the global administrator, will enable permissions for Insi
 
     ![](../Images/chooseusers31.png)
 
-    ![](../Images/save2.png)
+    ![](../Images/save2-1.png)
 
 1. From the bottom of the Insider Risk Management window, select **Done**.
 
@@ -79,8 +79,16 @@ Insider risk management uses Microsoft 365 audit logs for user insights and acti
 
 1. Select the browser tab labeled, **Microsoft 365 admin center - Home**.  If you previously closed this browser tab, open Microsoft Edge and in the address bar enter **admin.microsoft.com** and sign in with your admin credentials.
 
-1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft 365 compliance center.  
+1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft 365 compliance center.
 
+1. On the Welcome to the new mitcosoft purview portal, click on **Go to classic portal**.
+
+   ![](../Images/go-to.png)
+
+1. **Switch** to Microsoft 365 compliance portal
+   
+   ![](../Images/classic.png)
+   
 1. From the left navigation panel of the Microsoft 365 compliance center, select **Show all**.
 
 1. In the left navigation panel, under solutions, select **Audit**.
