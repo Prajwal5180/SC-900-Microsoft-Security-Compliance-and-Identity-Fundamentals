@@ -44,7 +44,7 @@ In this task you will gain an understanding of what sensitivity labels can do by
     
     ![](../Images/L13-T1-S7.png)
 
-1.Upon logging in to the portal, a pop-up window will appear. Choose **Go to classic portal** in the pop-up.
+1. Upon logging in to the portal, a pop-up window will appear. Choose **Go to classic portal** in the pop-up.
 
     ![](../Images/L13-T1-S8.png)
    
