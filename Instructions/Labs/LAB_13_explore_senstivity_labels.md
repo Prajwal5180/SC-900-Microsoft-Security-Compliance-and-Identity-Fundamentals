@@ -200,15 +200,15 @@ In this task, you will go through the process of applying a label from the persp
 
 1. From the top menu bar, select **Sensitivity**. From the drop down select **Confidential-Finance** (**Note:** If the option is not available, it will take sometime to reflect, and if selecting the label shows error label cannot be added to Word on web, please try refreshing the page once or sign-out and sign-in again).
 
-   ![](/Instructions/Images/L13-T2-S3.png)     
+   ![](../Images/L13-T2-S3.png)     
 
 1. From the top menu bar, select **View**, then select **Reading view**.
 
-    ![](/Instructions/Images/L13-T2-S4.png)            
+    ![](../Images/L13-T2-S4.png)            
 
 1. Notice how the document includes the watermark. 
 
-    ![](/Instructions/Images/L13-T2-S5.png) 
+    ![](../Images/L13-T2-S5.png) 
 
 1. Close the Microsoft Word tabs that are open on your browser to exit from Word.
 
@@ -217,15 +217,15 @@ In addition to content marking, the label protection setting was set for encrypt
 
 1. From the Microsoft Purview home page, select the **app launcher icon**, and **right click on the Outlook icon** and select **Open in new tab**.
 
-   ![](/Instructions/Images/L13-T3-S1.png) 
+   ![](../Images/L13-T3-S1.png) 
 
 1. Select **New message** from the top left corner of the screen.  Enter an email address to which you have access and is not part of the .OnMicrosoft.com domain and enter **Test** in the subject line.
 
-   ![](/Instructions/Images/L13-T3-S2.png) 
+   ![](../Images/L13-T3-S2.png) 
 
 1. Select **Attach** and you will find the word document you recently created to which you applied the label **Test-label**. Select **Share link** and press **Send**.
 
-   ![](/Instructions/Images/L13-T3-S4.png) 
+   ![](../Images/L13-T3-S4.png) 
 
 1. Check the email to which you sent the document.  Note, the email may be directed to your junk folder.  When you attempt to open the attached word file you will see a notification that you do not have permission to open the document.
 
