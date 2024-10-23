@@ -21,19 +21,13 @@ In this lab, you will complete the following tasks:
 ## Task 1: Add specific users as members of the eDiscovery Manager role group
 To access Core eDiscovery or be added as a member of a Core eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
 
-1. If you not alredy login to admin center, the address bar of Microsoft edge enter **admin.microsoft.com**.
+1. If you not alredy login to admin center, in the address bar of Microsoft edge enter **admin.microsoft.com**.
 
 1. On **Sign in** blade, you will see a login screen, in that enter the following email/username 
  
     * Email/Username: **<inject key="AzureAdUserEmail"></inject>** and then click on **Next**.
 
-      ![](../Images/module4/lab12/main-2.png)
-        
-1. On **Enter Password** blade, enter the following password   
-
     * Password: **<inject key="AzureAdUserPassword"></inject>** and then click on **signin**
-
-      ![](../Images/module4/lab12/main-3.png)
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
