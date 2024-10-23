@@ -192,11 +192,11 @@ In this task, you will go through the process of applying a label from the persp
 
 1. From the Microsoft Purview home page, select the **app launcher icon**, and **right click on the Word icon** and select **Open in new tab**. 
 
-   ![](/Instructions/Images/L13-T2-S1.png) 
+   ![](../Images/L13-T2-S1.png) 
 
 1. Select **+ New blank document**, then enter some text on the page.  On the blue bar on the top of the page, select the down-arrow, next to where it says DocumentXX - Saved, and in the File Name box enter, **Test-label**.
 
-   ![](/Instructions/Images/L13-T2-S2.png) 
+   ![](../Images/L13-T2-S2.png) 
 
 1. From the top menu bar, select **Sensitivity**. From the drop down select **Confidential-Finance** (**Note:** If the option is not available, it will take sometime to reflect, and if selecting the label shows error label cannot be added to Word on web, please try refreshing the page once or sign-out and sign-in again).
 
