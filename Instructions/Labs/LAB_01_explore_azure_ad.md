@@ -131,7 +131,7 @@ In this task, you’ll learn how to create a new user in the Microsoft Entra ID 
    
 1. In the **Assignments** tab :
 
-    - Click **Add Group**,this displays the available groups.  Notice the list of available groups.
+    - Click **Add Group**, this displays the available groups.  Notice the list of available groups.
 
     - Select **Operations**, you may need to scroll down, then press **Select**. Notice how the text next to groups has been updated to reflect 1 group selected.  
 
@@ -143,7 +143,7 @@ In this task, you’ll learn how to create a new user in the Microsoft Entra ID 
 
 1. From the bottom of the page, select the **Review + create** and **Create** button.
 
-1. Navigate back to **Microsoft Entra ID** user blade and verify the user appears on the user list (names are listed in alphabetical order).Kindly refresh the screen if the newly created user is not visible.
+1. Navigate back to **Microsoft Entra ID** user blade and verify the user appears on the user list (names are listed in alphabetical order). Kindly refresh the screen if the newly created user is not visible.
 
 1. From the user list select the user you just created, **Sara Perez**, the profile page opens.
 
@@ -178,7 +178,7 @@ To add a license, click on **Go to the Microsoft 365 admin center** from the ale
 
 1. Navigate back to the Microsoft Azure Portal and return to the Microsoft Entra ID Overview page. **Copy** the **email address** of the newly created user (e.g., sara@azureholxxxx.onmicrosoft.com), as you will use it to sign in for the next task.
 
-   >**Note** : You can retrieve the email ID from the environment details page.
+   >**Note**: You can retrieve the email ID from the environment details page.
 
      ![](../Images/T3-S16.png)
 
