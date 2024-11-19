@@ -70,11 +70,11 @@ With the Microsoft Sentinel instance created, it is important that users that wi
 
 1. In the **Search resources, services, and docs** search for **Resource groups (1)** then select **Resource groups (2)** from the search results. 
 
-   ![Picture 1](../Images/sc-20.png)
+    ![Picture 1](../Images/sc-20.png)
 
 1. From the Resource groups page, select the resource group  with Microsoft Sentinel, **SC900-ResourceGroup**.
 
-   ![Picture 1](../Images/sc-21.png)
+    ![Picture 1](../Images/sc-21.png)
    
     >**Note**: Working at the resource group level will ensure that any role that is selected will apply to all the resources that are part of the Microsoft Sentinel 
     instance that was created in the previous task.
@@ -86,7 +86,7 @@ With the Microsoft Sentinel instance created, it is important that users that wi
    
 1. Select the **Access Control (IAM) (1)**, select **View my access (2)** to confirm the **Owner (3)** role has been added, then close the window by select the **X (4)** on the top-right corner of the window.
 
-   ![Picture 1](../Images/sc-22.png)
+    ![Picture 1](../Images/sc-22.png)
    
     >**Note**: For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary resources, as  shown in the description. It is important, however, to understand the available Sentinel specific roles.
    
@@ -96,7 +96,7 @@ With the Microsoft Sentinel instance created, it is important that users that wi
 
     - In the search box, enter **Microsoft Sentinel (2)** to view the built-in roles associated with Microsoft Sentinel.
 
-    - From any of the roles listed **(3)**, select **View (4)** to view the details of that role. As a best practice you should assign the least privilege required for the role. 
+    - From any of the roles listed **(3)**, select **View (4)** to view the details of that role. As a best practice you should assign the least privilege required for the role.  
 
     - Close the window by selecting the **X (5)** on the top-right corner of the window.
 
@@ -104,7 +104,7 @@ With the Microsoft Sentinel instance created, it is important that users that wi
 
 1. From the top left corner of the window, just below the blue bar where it says Microsoft Azure, select **Home** to return to the Azure services home page.
 
-   ![Picture 1](../Images/sc-24.png)
+    ![Picture 1](../Images/sc-24.png)
 
 > - **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
