@@ -35,33 +35,33 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
    
 1. From the **Groups** page select **New group**.
 
-   ![](../Images/new-group.png)
+   ![](../Images/sc-5.png)
    
 1. Populate the **New Group** fields as follows and Select **Create (4)**
 
-    1. Group type: **Security (1)**.
+   - Group type: **Security (1)**.
 
-    2. Group name: **SSPRSecurityGroupUsers (2)**.
+   - Group name: **SSPRSecurityGroupUsers (2)**.
 
-    3. Group description: **Add an optional description to your group (3)**.
+   - Group description: **Add an optional description to your group (3)**.
        
-    ![](../Images/new-group-field.png)
+     ![](../Images/new-group-field.png)
 
 1. Navigate back to the **Microsoft Entra ID** home page, from the left navigation menu, select **Password reset** under **Manage**.
 
-   ![](../Images/select-password-reset.png)
+   ![](../Images/sc-4.png)
 
 1. On the **Password reset | Properties** page, under **Self service password reset enabled**, choose **Selected (1)** option and then select your Microsoft Entra ID group,by clicking on the **No group selected (2)**.
 
-   ![](../Images/password-reset-properties.png)
+   ![](../Images/sc-6.png)
    
 1. Select **SSPRSecurityGroupUsers (1)** group, after that choose **Select (2)**.
 
    ![](../Images/password-reset-properties1.png)
 
-1. Once your Microsoft Entra ID group is selected, make sure that it appears under **Select group (1)** and then click on **Save (1)**.
+1. Once your Microsoft Entra ID group is selected, make sure that it appears under **Select group (1)** and then click on **Save (2)**.
 
-   ![](../Images/password-reset-properties2.png)
+   ![](../Images/sc-7.png)
 
 1. Close the Properties window of Password reset by selecting the X at the top right corner of the page.
    
@@ -69,7 +69,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
    ![](../Images/select-groups.png)
   
-1. In the Search groups field, select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
+1. Navigate to **All groups** from the left Navigation pane. In the Search groups field, select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
 
    ![](../Images/select-created-group.png)
  
@@ -105,7 +105,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
    >**IMPORTANT**: Make a note of the new **password**, as you will need it in a subsequent task, to be able to sign in as the user.
 
-   ![](../Images/temp-pass-save.png)
+   ![](../Images/sc-8.png)
    
 1. Close the password reset window by selecting the **X** at the top right corner of the page.
 
@@ -125,33 +125,37 @@ In this task, you, as the admin, will learn how to configure Password reset for 
 
    ![](../Images/select-password-reset.png)
 
-1. The properties for self-service password reset are displayed.  Ensure that **Self-service reset** is **selected** for the group which is listed, the **SSPRSecurityUsers**.  Put your cursor over the information icon next to where it says "select group" and note what it says, "Defines the group of users who are allowed to reset their own passwords." You must include users in the group, you can’t individually select users.  Also, if you change the group, then the group you select replaces the group currently listed.  As such, it is recommended that you simply add users to the SSPR group.  Lastly, note the blue information box, "These settings only apply to end users in your organization. Admins are always enabled for self-service password reset and are required to use two authentication methods to reset their password."
+1. The properties for self-service password reset are displayed.  Ensure that **Self-service reset** is **selected** for the group which is listed, the **SSPRSecurityUsers**.  Put your cursor over the information icon next to where it says **select group** and note what it says, **Defines the group of users who are allowed to reset their own passwords**. You must include users in the group, you can’t individually select users.  Also, if you change the group, then the group you select replaces the group currently listed.  As such, it is recommended that you simply add users to the SSPR group.  Lastly, note the blue information box, **These settings only apply to end users in your organization. Admins are always enabled for self-service password reset and are required to use two authentication methods to reset their password**.
 
-1. From the left navigation panel of Password reset, select **Authentication Methods** (1).
+   ![](../Images/sc-9.png)
 
-1. In the Number of methods required to reset, select **1** (2). Note the information box on the screen.
+1. From the left navigation panel of Password reset, select **Authentication Methods (1)**.
 
-1. Notice the different methods available to users.  **Email** and **Mobile phone** (3) should already be checked; if not, select them and click save.
+   - In the *Number of methods required to reset*, select **1 (2)**. Note the information box on the screen.
 
-   ![](../Images/password-reset-auth.png)
+   - Notice the different methods available to users.  **Email** and **Mobile phone (3)** should already be checked; if not, select them and click on Save.
+
+     ![](../Images/sc-10.png)
 
 1. From the left navigation panel of Password reset, select **Registration (1)**.  
 
-1. Ensure the setting to Require users to register when signing in is set to **Yes (2)**.  Leave the Number of days before users are asked to re-confirm their authentication information, to the default of **180 (3)** and click save if any changes have been made.  Take note of the information box on the page.
+   - Ensure the setting to *Require users to register when signing in* is set to **Yes (2)**.  Leave the *Number of days before users are asked to re-confirm their authentication information*, to the default of **180 (3)** and click save if any changes have been made.  Take note of the information box on the page.
 
-   ![](../Images/password-reset-registration.png)
+     ![](../Images/password-reset-registration.png)
 
 1. From the left navigation panel of Password reset, select **Notifications (1)**.  
 
-1. Ensure the setting to Notify users on password resets is set to **Yes (2)**.  Leave the setting for Notify all admins when other admins reset their password to **No (3)**.
+   - Ensure the setting to *Notify users on password resets* is set to **Yes (2)**.  Leave the setting for *Notify all admins when other admins reset their password* to **No (3)**.
 
-   ![](../Images/password-reset-notification.png)
+     ![](../Images/password-reset-notification.png)
 
-1. Note how the Password reset navigation pane also includes options to view audit logs and Usage & insights.
+1. Note how the Password reset navigation pane also includes options to view **Audit logs and Usage & insights** under Activity.
 
    ![](../Images/password-reset-auditlog-usage.png)    
 
-1. **Sign out** from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then close all the browser windows.
+1. **Sign out (2)** from all the browser tabs by clicking on the user icon **(1)** next to the email address on the top right corner of the screen. Then close all the browser windows.
+
+   ![](../Images/sc-11.png)   
 
 ## Task 3: Registration process for a self-service password reset
 
@@ -169,7 +173,7 @@ In this task, you as user **Adele Vance**, will go through the registration proc
 
 1. Sign in as Adele Vance,
 
-    - In the Sign in window enter **adelev@azureholxxxxx.onmicrosoft.com** (where xxxxxx can be found in the **Environment** Tab beside the Lab Guide section) then select **Next**.
+    - In the Sign in window enter **adelev@mocholxxxxx.onmicrosoft.com** (where xxxxxx can be found in the **Environment** Tab beside the Lab Guide section) or you can also paste the **User 01 UPN** value directly, then select **Next**.
        
        ![](../Images/username-env.png)
 
@@ -187,11 +191,11 @@ In this task, you as user **Adele Vance**, will go through the registration proc
    
    >**Note:** we are using this password only for the convenience of the lab. As a best practice, you would typically enter a more secure password.
 
-1. A pop-up displays indicating that **Action Required**. This is because as a member of the SSPRSecurityUsers group, the configuration requires its members to register when they sign in. Select the **Next** button.
+1. A pop-up displays indicating that **More information required**. This is because as a member of the SSPRSecurityUsers group, the configuration requires its members to register when they sign in. Select the **Next** button.
 
     >**Note**:  An alternative to having users do the registration, themselves, is for admins to directly configure the authentication methods when they add a user. This requires admins to know and set the ​phone numbers and email addresses that users use to perform a self-service password reset, and reset a user’s password.
 
-   ![](../Images/Actionrequired1.png) 
+   ![](../Images/sc-13.png) 
 
 1. In the Keep your account secure window, The window that appears and the steps that follow are for the Microsoft Authenticator app method. Select **I want to set up a different authenticator app (1)**
 
@@ -213,7 +217,7 @@ In this task, you as user **Adele Vance**, will go through the registration proc
 
    ![](../Images/auth6.png)
   
-1. A new window opens indicating a code was just sent to the phone you entered.  Enter the code you are received and select **Next**.
+1. A new window opens indicating a code was just sent to the phone you entered **(1)**.  Enter the code you are received and select **Next (2)**.
 
    ![](../Images/enter-code(1).png)
 
@@ -246,17 +250,17 @@ In this task, you, as user Adele Vance, will go through the process of resetting
 
 1. Go to [login.microsoft.com](https://login.microsoft.com) portal.
 
-1. Sign in as **Adele Vance**, by entering your email **Adele@azureholxxxx.onmicrosoft.com** (user email id of Adel Vance)and select the **Next** button. You may, instead, see a Pick an account window open, if so, select the account for **Adele Vance**.
+1. Sign in as **Adele Vance**, by entering your email **Adele@mocholxxxx.onmicrosoft.com** (user email id of Adel Vance)and select the **Next** button. You may, instead, see a Pick an account window open, if so, select the account for **Adele Vance**.
 
 1. From the Enter password window, select **Forgot my password**.
 
    ![](../Images/forget-pass-0.png)   
 
-1. The Get back into your account window opens. Verify that the email for **Adele Vance**, **Adele@azureholxxxx.onmicrosoft.com**, is shown in the email or username box.  If not, enter it. In the empty box, enter the characters displayed in the image or the words from the audio. Once you have entered them, select **Next**.
+1. The Get back into your account window opens. Verify that the email for **Adele Vance**, **Adele@azureholxxxx.onmicrosoft.com** **(1)**, is shown in the email or username box.  If not, enter it. In the empty box, enter the characters displayed in the image or the words from the audio **(2)**. Once you have entered them, select **Next (3)**.
 
    ![](../Images/forget-pass.png)
 
-1. The screen shows Get back into your account and shows Verification step 1 > choose a new password. Leave the default setting **Text my mobile phone**.  You are prompted to enter the code sent to your mobile phone number.  Once you have entered it, select the **Next button**.
+1. The screen shows Get back into your account and shows *Verification step 1 > choose a new password*. Leave the default setting **Text my mobile phone**.  *Initially your prompted to enter your phone number, enter then click on* **Text**. After that you are prompted to enter the code sent to your mobile phone number.  Once you have entered it, select the **Next** button.
    
    ![](../Images/forget-pass-1.png)
 
@@ -268,7 +272,7 @@ In this task, you, as user Adele Vance, will go through the process of resetting
 
    ![](../Images/Forget-pass-3.png)
 
-1. From the Pick an account information box, select **Adele@azureholxxxx.onmicrosoft.com**, enter your new password, then select the **Sign in** button. If you are prompted to Stay signed in. select **No**.
+1. From the Pick an account information box, select **Adele@mocholxxxx.onmicrosoft.com**, enter your new password, then select the **Sign in** button. If you are prompted to Stay signed in. select **No**.
 
 1. You should now be on the **Office 365** Page.
 
@@ -290,11 +294,11 @@ In this task, you, as the administrator, will briefly view the Audit logs and th
   
      * Password: <inject key="AzureAdUserPassword"></inject>
   
-     * When prompted to stay signed- in, select **Yes**. 
+1. When prompted to stay signed- in, select **Yes**. 
 
-1. Select **Azure Active Directory**.
+1. Search **Microsoft Entra ID (1)** and then select **Microsoft Entra ID (2)** from the services.
 
-   ![](../Images/AAD-Search.png)
+   ![](../Images/lab08-sc300-3.png)
 
 1. From the left navigation pane, select **Password reset**.
 
