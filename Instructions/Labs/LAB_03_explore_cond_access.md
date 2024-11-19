@@ -93,14 +93,14 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
     ![](../Images/sc900lab3-image4.png)
 
 1. Under **Target resources**, select **No target resources are selected (1)**. You will now see the option to Include or Exclude cloud apps or user actions.  Make sure 
-   **Cloud apps (2)** is highlighted and **Include** is selected (underlined), then select **Select apps (3)**.  under **Select** click on **None (4)**, then the window 
-   to Select Cloud apps opens.
+   **Resources (formerly Cloud apps) (2)** is highlighted and **Include** is selected (underlined), then select **Select apps (3)**.  under **Select** click on **None (4)**, then the window 
+   to Select Resources opens.
 
-     ![](../Images/Asc-900-image8.png)
+     ![](../Images/Asc-900-image8upd.png)
    
 1. In the search bar, Type/Search and select **Microsoft admin portals**, then press **Select** at the bottom of the page.  Notice the warning.  
     
-    ![](../Images/Asc-900-image9.png)
+    ![](../Images/Asc-900-image9upd.png)
 
 1. Under Network, select **Not Configured**.  Review the options but do not select any options.
    
@@ -108,7 +108,7 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
     ![](../Images/Asc-900-image11.png)
 
-1. Under Conditions, select **0 conditions selected**.  Notice the different options you can configure.  Through the policy, you can control user access based on signals from conditions like risk, device platform, location, client apps, or device state.  For example, you could include a condition for the policy to apply for any location except selected or trusted locations such as your headquarters’ network.  For this policy, do not set any conditions.
+1. Under Conditions, select **1 conditions selected**.  Notice the different options you can configure.  Through the policy, you can control user access based on signals from conditions like risk, device platform, location, client apps, or device state.  For example, you could include a condition for the policy to apply for any location except selected or trusted locations such as your headquarters’ network.  For this policy, do not set any conditions.
 
 1. Now you will set the access controls.  Under Grant, select **0 controls selected**.
 
