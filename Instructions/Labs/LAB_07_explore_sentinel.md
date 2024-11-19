@@ -11,7 +11,7 @@ In this lab, you will complete the following tasks:
 + Task 1: Create a Microsoft Sentinel instance
 + Task 2: Built-in Microsoft Sentinel roles
 + Task 3: Data connector to your instance of Microsoft Sentinel
-+ Task 4: Explore on capabilities available in Sentinel
++ Task 4: Explore on capabilities available in Sentinel 
 
 ## Estimated timing: 60 minutes
 
