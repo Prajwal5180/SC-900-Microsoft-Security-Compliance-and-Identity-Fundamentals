@@ -60,13 +60,13 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
-    ![Enter Your Username](../Images/sc900-image-1.png)
+     ![Enter Your Username](../Images/sc900-image-1.png)
  
 3. Next, provide your password:
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-   ![Enter Your Password](../Images/sc900-image-2.png)
+     ![Enter Your Password](../Images/sc900-image-2.png)
 
 4. If a **Action Required** window appears, click on **Ask later**.
 
@@ -80,7 +80,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
    ![](../Images/Azure-cancel-tour.png)
  
-10. Click "Next" from the bottom right corner to embark on your Lab journey!
+10. Click **Next** from the bottom right corner to embark on your Lab journey!
  
      ![Start Your Azure Journey](../Images/sc900-image(3).png)
  
