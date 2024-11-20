@@ -64,7 +64,7 @@ In this lab, you will complete the following tasks:
 
      ![](../Images/L12T1S13.png)
      
-1. From the Customize your navigation pane window, select **compliance  Manager**  and **Catalogue**.  Select **Save (3)** on the bottom of the window.  Notice how the Solutions section of the navigation panel has been updated.
+1. From the Customize your navigation pane window, select **compliance  Manager**  and **Catalog**.  Select **Save (3)** on the bottom of the window.  Notice how the Solutions section of the navigation panel has been updated.
 
      ![](../Images/L12T1S14.png)
     
