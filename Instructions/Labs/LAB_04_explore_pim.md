@@ -1,15 +1,15 @@
 
-# Lab-04: Explore identity governance in Azure AD with Privileged Identity management
+# Lab-04: Explore identity governance in Microsoft Entra with Privileged Identity management
 
 ## Lab scenario
-In this lab, you will explore some of the basic functionality of Privileged Identity Management (PIM). PIM does require Microsoft Entra ID P2 license.  In this lab, you, as the admin, will configure one of your users, Diego Siciliani, with an Azure AD user administrator role, through Privileged ID management (PIM).   With user admin privileges, Diego will be able to create users and groups manage licenses and more. Both the admin and the user, Diego, must be configured for the Microsoft Entra ID P2 license.
+In this lab, you will explore some of the basic functionality of Privileged Identity Management (PIM). PIM does require Microsoft Entra ID P2 license.  In this lab, you, as the admin, will configure one of your users, Diego Siciliani, with an Microsoft Entra user administrator role, through Privileged ID management (PIM).   With user admin privileges, Diego will be able to create users and groups manage licenses and more. Both the admin and the user, Diego, must be configured for the Microsoft Entra ID P2 license.
 
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
 
 + Task 1: Reset the password for the user
-+ Task 2: Assign an Azure AD role in Privileged Identity Management
++ Task 2: Assign an Microsoft Entra role in Privileged Identity Management
 + Task 3: Sign in to the Microsoft Entra Admin Center to access the Privileged Identity Management
 
 ## Estimated timing: 60 minutes
@@ -56,9 +56,9 @@ In this task, you, as the admin, will reset the password for the user Diego Sici
 
 1. Keep the browser page open, as you will in the subsequent tasks.
 
-## Task 2: Assign an Azure AD role in Privileged Identity Management
+## Task 2: Assign an Microsoft Entra role in Privileged Identity Management
 
-In this task, you, as the admin, will assign Diego an Azure AD role in Privileged Identity Management.
+In this task, you, as the admin, will assign Diego an Microsoft Entra role in Privileged Identity Management.
 
 1. Open the browser tab for the home page of the Microsoft Entra admin center.  
 
@@ -162,9 +162,9 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
 
 1. You will see the status (3 stages of progress), as the activation is processed.
 
-    ![](../Images/3-stage.png)
+    ![](../Images/3-stageupd.png)
 
-1. Once the activation is completed you are returned to the My roles | Azure AD roles page, where you will see a notification stating you have just activated a role.  Select **Click here** to view your active roles.  If you notice the end time is different than what was originally configured, select the refresh key on the top of the page (it may take a few minutes to refresh).
+1. Once the activation is completed you are returned to the My roles | Microsoft Entra roles page, where you will see a notification stating you have just activated a role.  Select **Click here** to view your active roles.  If you notice the end time is different than what was originally configured, select the refresh key on the top of the page (it may take a few minutes to refresh).
 
 1. Return to the home page of the Microsoft Entra admin center by selecting **Home** from the left navigation panel.
 
@@ -216,7 +216,7 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
 ## Review
 In this lab, you have completed:
 - Reset the password for the user
-- Assign an Azure AD role in Privileged Identity Management
-- Sign in to the Azure Portal, to access the Privileged Identity Management
+- Assigned Microsoft Entra role in Privileged Identity Management
+- Signed in to the Azure Portal, to access the Privileged Identity Management.
   
 ## You have successfully completed the lab
