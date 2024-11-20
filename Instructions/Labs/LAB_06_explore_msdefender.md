@@ -19,62 +19,101 @@ In this lab, you will complete the following tasks:
 
 ## Task 1: Explore on Microsoft Defender for Cloud
 
-1. In the Azure portal, in the **Search resources, services, and docs** search for **Microsoft Defender for Cloud**, then from the results list, select **Microsoft Defender for Cloud**.
+1. In the Azure portal, in the **Search resources, services, and docs** search for **Microsoft Defender for Cloud (1)**, then from the results list, select **Microsoft Defender for Cloud (2)**.
+
+    ![Picture 1](../Images/sc-62.png)
 
 1. If this is the first time you enter Microsoft Defender for Cloud with your subscription, you may land on the Getting started page and be prompted to upgrade.  Scroll to the bottom of the page and select **Skip**. You'll be taken to the Overview page.
 
-    ![Picture 1](../Images/sc900-6-1.png)
+    ![Picture 1](../Images/sc-63.png)
     
-1. From the Overview page of Microsoft Defender for Cloud, notice the information available on the page (if you see 0 assessed resources and active recommendations, refresh the browser page, it may take a few minutes).  Information on the top of the page includes the number of Azure subscriptions, the number of Assessed resources, the number of active recommendations, and any security alerts.  On the main body of the page, there are cards representing Security posture, Regulatory compliance, Insights, and more.  Note: The Microsoft Defender for Cloud default policy initiative, which would normally have to be assigned by the admin, has already been assigned as part of the Azure subscription setup. The secure score, however, will show as 0% because there can be up to a 24 hour delay for Azure to reflect an initial score.
+1. From the **Overview** page of Microsoft Defender for Cloud, notice the information available on the page (if you see 0 assessed resources and active recommendations, refresh the browser page, it may take a few minutes).  Information on the top of the page includes the number of Azure subscriptions, the number of Assessed resources, the number of active recommendations, and any security alerts.  On the main body of the page, there are cards representing Security posture, Regulatory compliance, Insights, and more.  Note: The Microsoft Defender for Cloud default policy initiative, which would normally have to be assigned by the admin, has already been assigned as part of the Azure subscription setup. The secure score, however, will show as 0% because there can be up to a 24 hour delay for Azure to reflect an initial score.
    
-    ![Picture 1](../Images/s1.png)   
+    ![Picture 1](../Images/sc-83.png)   
 
 1. From the top of the page, select **Assessed resources**.  (Note that this is equivalent to having selected Inventory from the left navigation panel of the Microsoft Defender for Cloud home page).
+
+    ![Picture 1](../Images/sc-64.png)
    
-   1. This brings you to the **Inventory** page that lists the current resources. Select the virtual machine resource, **sc900-win2**. This resource is associated with the virtual machine you used in the previous lab.
+1. This brings you to the **Inventory** page that lists the current resources. Select the virtual machine resource, **sc900-win2**. This resource is associated with the virtual machine you used in the previous lab.
        
-      ![Picture 1](../Images/sc900-6-5.png)
+    ![Picture 1](../Images/sc-65.png)
 
-      >**Important**: If you're unable to view any resources, please follow below steps:
-         -  Navigate to  **Environment settings (1)** under **Management** section. On the **Microsoft Defender for Cloud | Environment settings** page, select **Subscription (2)**
+    >**Important**: If you're unable to view any resources, please follow below steps:
 
-             ![Picture 1](../Images/sc-900-lab6-image1.png)
+   - Navigate to  **Environment settings (1)** under **Management** section. On the **Microsoft Defender for Cloud | Environment settings** page, select **Subscription (2)**
+
+     ![Picture 1](../Images/sc-900-lab6-image1.png)
      
-         - In the settings page, from the left navigation pane, choose **Security policies (1)** and enable the toggle for **Microsoft cloud security benchmark (2)**.
+   - In the settings page, from the left navigation pane, choose **Security policies (1)** and enable the toggle for **Microsoft cloud security benchmark (2)**.
       
-             ![Picture 1](../Images/sc-900-lab6-image(2).png)
+     ![Picture 1](../Images/sc-900-lab6-image(2).png)
 
-         - Return to the Inventory page and refresh to view the resources.
+   - Return to the Inventory page and refresh to view the resources.
 
-      >**Note** : It will take around 1-1.5 hr to fetch all the resources inside the Inventory.
-      
-   1. The Resource health page for the VM provides a list of recommendations.  From the available list, select any item from the list that shows an **unhealthy** status.
+     >**Note** : It will take around 1-1.5 hr to fetch all the resources inside the Inventory.
+
+1. The Resource health page for the VM provides a list of recommendations.  From the available list, select any item from the list that shows an **unhealthy** status.
    
-      ![Picture 1](../Images/recommendation01.png)
+      ![Picture 1](../Images/sc-85.png)
+
+1. Click on **View recommeendation for all resources** from the top menu.
+
+    ![Picture 1](../Images/sc-67.png)
    
-   1. Note the detailed description.  Select the drop-down arrow next to the Remediation steps. Note how remediation instructions (or links to instructions) are provided along with the option to take action.  Exit the window without taking any action.
+1. Note the detailed description.  Select the drop-down arrow next to the Remediation steps. Note how remediation instructions (or links to instructions) are provided along with the option to take action.  Exit the window without taking any action.
+
+    ![Picture 1](../Images/sc-84.png)
   
-   1. Return to the Microsoft Defender for Cloud overview page, by selecting **Microsoft Defender for Cloud | Overview** from the top of the page, above where it says Resource health.
+1. Return to the Microsoft Defender for Cloud overview page, by selecting **Microsoft Defender for Cloud | Overview** from the top of the page, above where it says Resource health.
 
-1. From the main left navigation panel, select **Regulatory compliance**. The regulatory compliance page provides a list of compliance controls based on the Microsoft Cloud security benchmark (verify that the Microsoft Cloud security benchmark tab is selected/underlined). Under each control domain is a subset of controls and for each control, there are one or more assessments. Each assessment provides information including description, remediation, and affected resources.
-   
-    >**Note**: If the assessments are greyed out, go to **Manage Compliance Standards** and then **Environment Settings page** open select **Subscription**(decrease the resolution if it isn't visible) then the Defender plans page open then go to **Security policy** from the left navigation pane and against **Microsoft cloud security benchmar** click on the elipsis and choose **View in Azure policy** then initiative assignment page open here In **Scope** option select Azure subscription and **Assignment name** as **Microsoft cloud security benchmark** and leave remaining as default and select **Review + Create** and click on **Create**.
+1. From the main left navigation panel, select **Regulatory compliance (2)** under **Cloud Security (1)**. 
 
-    ![Picture 1](../Images/s3.png)
+    ![Picture 1](../Images/sc-69.png)
 
-    ![Picture 1](../Images/s4.png)
-     
-    ![Picture 1](../Images/s2.png)
-     
+1. The regulatory compliance page provides a list of compliance controls based on the Microsoft Cloud security benchmark (verify that the **Microsoft Cloud security benchmark** tab is selected/underlined). Under each control domain is a subset of controls and for each control, there are one or more assessments. Each assessment provides information including description, remediation, and affected resources.    
+
+    ![Picture 1](../Images/sc-70.png)
+
+1. Alternatively perform the below steps. 
+
+1. Navigate to the **Manage Compliance Standards** from the top menu.
+
+    ![Picture 1](../Images/sc-77.png)
+
+1. On the **Environment Settings page** open select **Subscription**(decrease the resolution if it isn't visible).
+
+    ![Picture 1](../Images/sc-78.png)
+
+1.  On the Defender plans page open then go to **Security policy** from the left navigation pane.
+
+    ![Picture 1](../Images/sc-79.png)
+
+1. Against **Microsoft cloud security benchmar** click on the elipsis **(...)(1)** and choose **View in Azure policy (2)**.     
+
+    ![Picture 1](../Images/sc-80.png)
+
+1. Click on **Assign**.
+
+    ![Picture 1](../Images/sc-81.png)
+
+1. In **Scope** option select Azure subscription **(1)** then **Assignment name** as **Microsoft cloud security benchmark (2)** and leave remaining as default and select **Review + Create (3)**.
+
+    ![Picture 1](../Images/sc-82.png)
+
+1. Click on **Create**.    
+
 1. Let's explore one of the control domain areas. Select (expand) **NS. Network Security**. A list of controls related to network security is displayed.
        
-   ![Picture 1](../Images/sc900-6-6.png)
+   ![Picture 1](../Images/sc-71.png)
        
    >**Note**: If you are not able to see the list of controls as provided in the Screenshot, skip the below steps and start Task 2.
 
 1. It takes 2-3 hrs to fetch this list of controls.
    
-1. Select any option from the list and  note the list of automated assessments and how each assessment line item provides information including the resource type, failed resources and compliance status. Select the assessments listed.  Here you see information including a description, Remediation steps, and Affected resources.
+1. Select any option from the list **(1)** and  note the list of **Automated assessments (2)** and how each assessment line item provides information including the **Resource type **(3)**, failed resources **(4)** and compliance status (5)**. Select the assessments listed.  Here you see information including a description, Remediation steps, and Affected resources.
+
+    ![Picture 1](../Images/sc-72.png)
     
 1. Select the **X** on the top-right corner of the screen to close the page.
    
@@ -95,17 +134,19 @@ Recall that Microsoft Defender for Cloud is offered in two modes: without enhanc
 
 1. From the Microsoft Defender for Cloud overview page, select the **Environment settings** from the left navigation panel.
 
-1. Expand the **Azure** list then select the **Existing Subscription** listed next to the yellow key icon.
+    ![Picture 1](../Images/sc-74.png)
 
-   ![Picture 1](../Images/sc900-6-8.png)
+1. Expand the **Azure** list **(1)(2)** then select the **Existing Subscription (3)** listed next to the yellow key icon.
+
+   ![Picture 1](../Images/sc-75.png)
       
 1. On the Defender plans page, notice how you can select Enable all or select individual Defender plans. 
 
 1. Verify that Foundational CSPM status is set to **On**, if not, set it now.  
 
-1. Select **Save** from the top of the page.
+1. On the Defender plans page, click on **Enable all plans (1)** and then select **Save (2)** from the top of the page.
    
-   ![Picture 1](../Images/sc900-6-2.png)
+   ![Picture 1](../Images/sc-76.png)
       
 1. Close all the open browser tabs.
       
