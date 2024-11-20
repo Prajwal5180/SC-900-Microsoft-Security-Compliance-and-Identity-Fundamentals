@@ -60,7 +60,7 @@ In this lab, you will complete the following tasks:
  
      ![Picture 1](../Images/sc-49.png)
  
-1. Under **Upload Traffic Logs** tab, click on **browse (1)** and upload the log file which you downloaded. Click **Upload logs > (3)**.
+1. Under **Upload Traffic Logs** tab, click on **browse (1)** and upload the log file which you downloaded **(2)**. Click **Upload logs > (3)**.
 
       ![Picture 1](../Images/Asc-900-image20.png)
 
@@ -136,7 +136,6 @@ In this lab, you will complete the following tasks:
 
     ![Picture 1](../Images/sc-58.png)
 
-
 1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.  
 
     ![Picture 1](../Images/secu.png)
@@ -158,7 +157,6 @@ In this lab, you will complete the following tasks:
 1. Select the **IP Addresses**, **Users**, and **Discovered resources** tab to see more detailed information.
 
     ![Picture 1](../Images/sc-59.png)
-
 
 1. When you're done exploring the details page, return to discovered apps page, by selecting **Cloud Discovery** from the bread crumb on the top of the page.
 
