@@ -55,19 +55,19 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
-    ![Enter Your Username](../Images/sc900-image-1.png)
+     ![Enter Your Username](../Images/sc900-image-1.png)
  
 3. Next, provide your password:
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-   ![Enter Your Password](../Images/sc900-image-2.png)
+     ![Enter Your Password](../Images/sc900-image-2.png)
  
-4. If prompted to stay signed in, you can click "No."
+4. If prompted to **Stay signed in**, you can click **No.**
  
-5. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Maybe Later" to skip the tour.
+5. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Maybe Later** to skip the tour.
  
-6. Click "Next" from the bottom right corner to embark on your Lab journey!
+6. Click **Next** from the bottom right corner to embark on your Lab journey!
  
      ![Start Your Azure Journey](../Images/sc900-image(3).png)
 
@@ -77,29 +77,29 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
     ![](../Images/sc900-introimage1.png)
 
-    >**Note**:On the Welcome to Microsoft Edge page, select **Start without your data** and on the help for importing Google browsing data page, select the **Continue without this data** button. Then, proceed to select **Confirm and start browsing** on the next page
+    >**Note**:On the Welcome to Microsoft Edge page, select **Start without your data** and on the help for importing Google browsing data page, select the **Continue without this data** button. Then, proceed to select **Confirm and start browsing** on the next page.
+
 1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**. Please open this in a new private window.
 
       ![](../Images/module4/lab12/main-4.png)
 
 1. In the Sign in window, sign in with your admin credentials.
-   * Username: <inject key="AzureAdUserEmail"></inject>
 
-       ![](../Images/module4/lab12/main-4.png)
-1. Now enter the password and click on Sign in.
-  
-    1.  Get the user credentials provided in the environment details page and paste the value in the username section and then select **Next**.
-     
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
-        * Password: <inject key="AzureAdUserPassword"></inject>
+    - Username: <inject key="AzureAdUserEmail"></inject>
+
+      ![](../Images/module4/lab12/main-4.png)
+
+1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
+
+    - Password: <inject key="AzureAdUserPassword"></inject>
     
-        ![](../Images/module4/lab12/main-3.png)
+      ![](../Images/module4/lab12/main-3.png)
      
-    1. When prompted to protect the account, Please select **Skip for now**.
+1. When prompted to protect the account, Please select **Skip for now**.
    
-    1. When prompted to Action Required, Please select **Ask later**
+1. When prompted to Action Required, Please select **Ask later**
 
-    1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
+1.  When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
  
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
 
