@@ -33,43 +33,39 @@ In this task, you, as the global administrator, will enable permissions for Insi
 
     * Password: **<inject key="AzureAdUserPassword"></inject>** and then click on **signin**
 
-1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
+1. From the left navigation pane of the Microsoft 365 admin center, select **Show all** then select **Compliance**.
 
-    ![](../Images/sc-900-lab15-1-01.png)
+    ![](../Images/sc-900-lab15-1-02upd.png)
 
-1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.
+1. A new browser page opens to the welcome page of the Microsoft Purview portal.You will see a new tab and a popup with **Welcome to the new Microsoft Pureview portal!**, click on **I agree to the terms of data flow disclosure and Privacy Statements** and select **Get started**.
 
-    ![](../Images/sc-900-lab15-1-02.png)
+    ![](../Images/pureviewwelcome.png)
 
-1. From the left navigation pane of the Microsoft 365 Defender portal, select **Permissions**.  You may need to scroll down to see this option.
+1. From the left navigation panel, select **Settings**, expand **Roles & scopes** then select **Role groups**.
 
-1. From the Permissions page, under **Email & collaboration roles** select **Roles**.
+    ![](../Images/sc-900-lab14-002upd.png)
 
-    ![](../Images/sc-900-lab14-002.png)
+1. In the search field, on the top right of the page, type **Insider risk** then hit Enter on your keyboard.  Notice the numerous roles that show up.  Each of these has different access levels.  Select **Insider risk management** and review the description.  Scroll down to where it shows members and note that MOD Administrator and Megan Bowen are listed. Close the window by selectin the **X** on the top right of the window.
 
-1. In the search bar, type **Insider risk** then press Enter on your keyboard. Notice the roles that show up.  Each of these has different access levels.  Select **Insider risk management**.
-
-    ![](../Images/L14T1S8.1.png)
-    
-    ![](../Images/L14T1S8.2.png)
+    ![](../Images/L14T1S81upd.png)
 
 1. In the window that opens, select **Edit**.
    
-    ![](../Images/insiderriskmanagementedit1.png)
+    ![](../Images/insiderriskmanagementedit1upd.png)
 
 1. To add members to this role group, select **Choose users (1)** . From the list of names, select **Megan Bowen and ODL_User **<inject key="DeploymentId"></inject>** (2)** and click on **Select (3)** at the bottom of page. 
 
-    ![](../Images/chooseuser21.png).
+    ![](../Images/chooseuser21upd.png).
 
 1. Click on **Next**. On the **Review and Finish** page, verify the added members are correct and then select **Save**.
 
-    ![](../Images/chooseusers31.png)
+    ![](../Images/chooseusers31upd.png)
 
-    ![](../Images/save2-1.png)
+    ![](../Images/save2-1upd.png)
 
 1. From the bottom of the Insider Risk Management window, select **Done**.
 
-    ![](../Images/L14T1S12.png)
+    ![](../Images/L14T1S12upd.png)
 
 1. Close all the tabs except the **admin.microsoft.com** and then sign out from the admin center page and sign-in back again to reflect the permissions added for users faster.
 
