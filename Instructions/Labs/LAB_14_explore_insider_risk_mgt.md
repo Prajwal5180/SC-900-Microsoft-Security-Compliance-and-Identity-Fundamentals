@@ -37,7 +37,7 @@ In this task, you, as the global administrator, will enable permissions for Insi
 
     ![](../Images/sc-900-lab15-1-02upd.png)
 
-1. A new browser page opens to the welcome page of the Microsoft Purview portal.You will see a new tab and a popup with **Welcome to the new Microsoft Pureview portal!**, click on **I agree to the terms of data flow disclosure and Privacy Statements** and select **Get started**.
+1. A new browser page opens to the **Welcome page of the Microsoft Purview portal!**, click on **I agree to the terms of data flow disclosure and Privacy Statements** and select **Get started**.
 
     ![](../Images/pureviewwelcome.png)
 
