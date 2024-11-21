@@ -80,13 +80,9 @@ In this task you, as an eDiscovery Administrator (ODL admin is an eDiscovery adm
 
 1. You should still be on the compliance portal roles page. If you closed the browser tab from the previous task, open a new browser tab and enter **https://compliance.microsoft.com** to get to the Microsoft Purview portal.
 
-1. From the left navigation panel, under Solutions, expand **eDiscovery** then select **Standard Cases**.
+1. From the left navigation panel, under Solutions, expand **eDiscovery** then select **Standard Cases** click on **+ Create a case**.
 
-      ![Picture 1](../Images/Asc-900-image38.png)
-
-1. From the top of the eDiscovery (Standard) page, select **+ Create a case**.
-
-      ![Picture 1](../Images/Asc-900-image39.png)
+      ![Picture 1](../Images/stdcase1.png)
    
 1. In the New case window, enter a Case name, **SC900 Test Case** then select the **Save** at the bottom of the page.
 
