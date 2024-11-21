@@ -148,8 +148,6 @@ With a hold in place, you will create a search query.  Once your search is compl
 
     ![Picture 1](../Images/Asc-900-image48.png)
 
-    ![Picture 1](../Images/Asc-900-image(49).png)
-
 1. The Query conditions page enables you to create a search, based on specific Keywords or Conditions that are satisfied, In the keyword field enter **Sales** select **Next**.
 
     ![Picture 1](../Images/Asc-900-image50.png)
