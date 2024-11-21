@@ -55,13 +55,13 @@ In this task, you, as the global administrator, will enable permissions for Insi
 
 1. To add members to this role group, select **Choose users (1)** . From the list of names, select **Megan Bowen and ODL_User **<inject key="DeploymentId"></inject>** (2)** and click on **Select (3)** at the bottom of page. 
 
-    ![](../Images/chooseuser21upd.png).
+    ![](../Images/chooseuser21upd1.png).
 
 1. Click on **Next**. On the **Review and Finish** page, verify the added members are correct and then select **Save**.
 
-    ![](../Images/chooseusers31upd.png)
+    ![](../Images/chooseusers31upd1.png)
 
-    ![](../Images/save2-1upd.png)
+    ![](../Images/save2-1upd1.png)
 
 1. From the bottom of the Insider Risk Management window, select **Done**.
 
