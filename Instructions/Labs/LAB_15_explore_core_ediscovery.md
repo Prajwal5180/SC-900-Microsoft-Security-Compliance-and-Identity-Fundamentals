@@ -53,7 +53,7 @@ To access Core eDiscovery or be added as a member of a Core eDiscovery case, a u
 
 1. Select **Edit** 
 
-    ![](../Images/image1.png)
+    ![](../Images/image1upd.png)
 
 1. On **eDiscovery Manager** page select **Next** on  **Manager eDiscovery Manager**.
 
