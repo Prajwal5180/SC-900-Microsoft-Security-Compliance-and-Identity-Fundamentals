@@ -40,7 +40,7 @@ In this task you will gain an understanding of what sensitivity labels can do by
 
     ![](../Images/L13-T1-S6.png)
 
-1. A new browser page opens.Since you are already signed in, your email will be listed. You can select your email address, to log in to Microsoft Purview.
+1. Sometimes, A new browser page opens.Since you are already signed in, your email will be listed. You can select your email address, to log in to Microsoft Purview.
     
     ![](../Images/L13-T1-S7.png)
 
@@ -56,12 +56,19 @@ In this task you will gain an understanding of what sensitivity labels can do by
 
     ![](../Images/L13-T1-S10.png)
 
+1. Navigate to **Audit (1)** under **Solution** from the left Navigation pane. If auditing isn't turned on, a banner is displayed prompting you *Start recording user and admin activity*. Select the **Start recording user and admin activity (2)** banner. It has to be turned on to create  **auto-label policy** in further tasks.
+
+    ![](../Images/sc-109.png)   
+
+    >**Note:** It may take up to 60 minutes for the change to take effect.
+
 1. In the left navigation panel of Microsoft Purview, go to **Solutions (1)**, select **Information Protection (2)**, and then choose **Overview (3)**. On the overview page, click **Turn on now (4)** inside the yellow information box to enable processing of encrypted sensitivity labels in Office online files stored in OneDrive and SharePoint.
+
    > **Note**: There can be a delay for the setting to propagate through the system. Refresh the Page once.
 
     ![](../Images/L13-T1-S11.png)
 
-1. Now select **Labels** from the left navigation panel and then select **Create a label**
+1. Now select **Labels (1)** from the left navigation panel and then select **Create a label (2)**.
 
     ![](../Images/L13-T1-S12.png)
 
@@ -75,11 +82,11 @@ In this task you will gain an understanding of what sensitivity labels can do by
 
     ![](../Images/L13-T1-S13.png)
 
-1. Note the scope for this label is set to **Items**. Read the description but **do not** change any settings. Select **Next** at the bottom of the page.
+1. On the **Define the scope for this label** page, read the description but **do not** change any settings. Select **Next** at the bottom of the page.
 
-      ![](../Images/sc-900-jap8.png)
+      ![](../Images/sc-86.png)
 
-1. On the Choose protection settings for labeled items page, select **Apply or remove encryption (1)*** and **Apply content marking (2)** options, then click **Next (3)**.
+1. On the Choose protection settings for labeled items page, select **Control access (1)** and **Apply content marking (2)** options and then click **Next (3)**.
 
     ![](../Images/L13-T1-S15.png)
 
@@ -91,7 +98,7 @@ In this task you will gain an understanding of what sensitivity labels can do by
 
     ![](../Images/L13-T1-S17.png)
 
-1. select your username **odl_user_<inject key="deploymentID"></inject>** and **Megan Bowen** and click on **Add**.
+1. Select your username **odl_user_<inject key="deploymentID"></inject> (2)** and **Megan Bowen (1)** and click on **Add (3)**.
 
     ![](../Images/L13-T1-S18.png)
 
@@ -102,7 +109,6 @@ In this task you will gain an understanding of what sensitivity labels can do by
 1. Under Users and groups, the tenant is defined, allowing all users in your tenant to view content with this label. The finance team is also listed and has co-author permissions. Do not change any settings. Select **Next** on the bottom of the page.
 
     ![](../Images/L13-T1-S20.png)
-
 
 1. On the content markings page, take note of the information box on the top of the page. **Turn on (1)** the Content Making and select **Add a watermark (2)**, **Add a header (3)**, & **Add a footer (4)**. Click on **Customize text (5),(6),(7)** on each and provide the text **customize watermark test** and click on **Save**.  Content markings will be applied to the documents but only headers and footers will be applied to email messages. In other words, watermarks are not applied to emails. The content marking associated with this label is a watermark. Select **Next (8)** on the bottom of the page.
 
@@ -130,10 +136,14 @@ In this task you will gain an understanding of what sensitivity labels can do by
 1. Click on **Done** on next window.   
 
       ![](../Images/sc-900-jap21.png)
-          
-1. A new window of Create policy will open. Select **Choose sensitivity labels to publish**. A window opens that provides information about the policy. This policy serves to publish the IT-Department-Demo. Select **Confidential-Finance** from label and select **Add** on the bottom of the page. And then click on **Next**.
 
-     ![](../Images/sc-900-jap22.png)
+1. A new window of **Publish label** will open. Click on **Create new nabel policy**.
+
+      ![](../Images/sc-87.png)
+
+1. A new window of Create policy will open. Select **Choose sensitivity labels to publish (1)**. A window opens that provides information about the policy. This policy serves to publish the IT-Department-Demo. Select **Confidential-Finance (2)** from label and select **Add (3)** on the bottom of the page. And then click on **Next (4)**.
+
+     ![](../Images/sc-88.png)
      
 1. Under the Sensitivity labels to publish.  Don’t change any settings.  Select **Next** on the bottom of the page.
 
@@ -153,29 +163,29 @@ In this task you will gain an understanding of what sensitivity labels can do by
 
 1. Under the **Apply a Default label to documents**.  Don’t change any settings.  Select **Next** on the bottom of the page.
 
-    ![](../Images/sc-900-jap27.png)
+    ![](../Images/sc-89.png)
 
 1. Under the **Apply a Default label to emails**.  Don’t change any settings.  Select **Next** on the bottom of the page.
 
-    ![](../Images/sc-900-jap28.png)
+    ![](../Images/sc-90.png)
     
 1. Under the **Apply a default label to meetings and calendar events**.  Don’t change any settings.  Select **Next** on the bottom of the page.    
 
-    ![](../Images/sc-900-jap29.png)
+    ![](../Images/sc-91.png)
     
 1. Under the **Apply a default label to Fabric and Power BI content**.  Don’t change any settings.  Select **Next** on the bottom of the page.
 
-    ![](../Images/sc-900-jap30.png)
+    ![](../Images/sc-92.png)
     
-1. The last configuration option is to name your policy. Enter the policy name as **Confidential-Finance Policy**.  Select **Next** on the bottom of the page to exit the policy configuration and return to the Information protection page.
+1. The last configuration option is to name your policy. Enter the policy name as **Confidential-Finance Policy (1)**.  Select **Next (2)** on the bottom of the page to exit the policy configuration and return to the Information protection page.
 
-    ![](../Images/sc-900-jap31.png)
+    ![](../Images/sc-93.png)
     
 1. Review the settings and click on **Submit** and then select **Done**.
 
     ![](../Images/sc-900-jap32.png)
     
-    ![](../Images/sc-900-lab13-27.png)    
+    ![](../Images/sc-94.png)    
     
     >**Note**- The label created cannot be deleted, it can only be edited. 
 
@@ -186,6 +196,56 @@ In this task you will gain an understanding of what sensitivity labels can do by
 1. Keep this page open, you will use it in the next task.
 
 1. It can take up to 24 hours to publish the labels to the selected users apps
+
+1. From the left navigation panel, under **Information protection**, select **Auto-labeling**. Then click on select **+Create auto-label policy (3)**.
+
+      ![](../Images/sc-95.png)
+
+1. Note the available options. Select **Medical and health (1)** then select one of the available templates **(2)**. Select **Next (3)**.  
+
+      ![](../Images/sc-96.png)
+
+1. You can name your auto-label policy or use the default name **(1)**. Select **Next (2)**.
+
+      ![](../Images/sc-97.png)
+
+1. You can assign the admin units to which this policy applies. Leave the default set to full directory and select **Next**.      
+
+      ![](../Images/sc-98.png)   
+
+1. Note the available **locations where you want to apply the label**. Leave the defaults and select **Next**.    
+
+      ![](../Images/sc-99.png)   
+
+1. You can **Set up common or advanced rules** that define what the content the label is applied to. Leave the default set to Common rules and select **Next**.
+
+      ![](../Images/sc-100.png)   
+
+1. You can **Define rules for content in all locations**. Leave all the default settings and select **Next**.     
+
+      ![](../Images/sc-101.png)   
+
+1. Choose a label to auto-apply by selecting **+Choose a label (1)**. Choose a label **(2)** then select **Add (3)**. Select **Next (4)**.
+
+      ![](../Images/sc-110.png)   
+
+1. **Additional settings can be configured for email**. Leave the defaults and select **Next**.      
+
+      ![](../Images/sc-102.png)   
+
+1. You can decide to test the policy now or later. Select **Leave policy turned off (1)** then select **Next (2)**.
+
+      ![](../Images/sc-103.png)   
+
+1. Review the settings and select **Create policy** then select **Done**.      
+
+      ![](../Images/sc-104.png)   
+
+      >**Note:** If you encounter any client error, please sign out, then sign back in, and then resume the process starting from step 43.
+
+      ![](../Images/sc-111.png)   
+
+1. From the left navigation panel, select **Home** to return to the Microsoft Purview portal.            
 
 ## Task 2: How to apply a label
 In this task, you will go through the process of applying a label from the perspective of the user (in this case the user is the admin) and view the content marking that is generated by the label.
@@ -198,9 +258,9 @@ In this task, you will go through the process of applying a label from the persp
 
    ![](../Images/L13-T2-S2.png) 
 
-1. From the top menu bar, select **Sensitivity**. From the drop down select **Confidential-Finance** (**Note:** If the option is not available, it will take sometime to reflect, and if selecting the label shows error label cannot be added to Word on web, please try refreshing the page once or sign-out and sign-in again).
+1. From the top menu bar, select **Sensitivity (1)**. From the drop down select **Confidential-Finance (2)** (**Note:** If the option is not available, it will take sometime to reflect, and if selecting the label shows error label cannot be added to Word on web, please try refreshing the page once or sign-out and sign-in again).
 
-   ![](../Images/L13-T2-S3.png)     
+   ![](../Images/sc-105.png)     
 
 1. From the top menu bar, select **View**, then select **Reading view**.
 
@@ -219,13 +279,21 @@ In addition to content marking, the label protection setting was set for encrypt
 
    ![](../Images/L13-T3-S1.png) 
 
-1. Select **New message** from the top left corner of the screen.  Enter an email address to which you have access and is not part of the .OnMicrosoft.com domain and enter **Test** in the subject line.
+1. Select **New mail** from the top left corner of the screen.  
 
    ![](../Images/L13-T3-S2.png) 
 
-1. Select **Attach** and you will find the word document you recently created to which you applied the label **Test-label**. Select **Share link** and press **Send**.
+1. Enter an email address to which you have access **(1)** and is not part of the .OnMicrosoft.com domain and enter **Test (2)** in the subject line. Click on **Attach file (3)** drop down then select **Onedrive (4)**.
 
-   ![](../Images/L13-T3-S4.png) 
+      ![](../Images/sc-106.png)   
+
+1. Select the word document you recently created to which you applied the label **Test-label (1)**. Select **Share link (2)**.
+
+   ![](../Images/sc-107.png) 
+
+1. Then click on **Send**.  
+
+   ![](../Images/sc-108.png) 
 
 1. Check the email to which you sent the document.  Note, the email may be directed to your junk folder.  When you attempt to open the attached word file you will see a notification that you do not have permission to open the document.
 
