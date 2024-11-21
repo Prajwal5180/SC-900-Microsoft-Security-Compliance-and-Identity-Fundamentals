@@ -90,7 +90,7 @@ In this task you, as an eDiscovery Administrator (ODL admin is an eDiscovery adm
 
 1. The case should now appear on the list.
 
-    ![](../Images/sc-900-lab15-T2-3.png)
+    ![](../Images/sc-900-lab15-T2-3upd.png)
 
 1. As the creator of the case and because you have eDiscovery Administrator privileges, you can begin to work with it.  
 
@@ -105,7 +105,7 @@ Now that you have created a Core eDiscovery case, you can begin to work with the
 
 1. From the Home page of the case, select the **Hold** tab then select **+ Create**.
 
-    ![](../Images/sc-900-lab15-T2-4.png)
+    ![](../Images/sc-900-lab15-T2-4upd.png)
 
 1. In the name field, enter **Test hold** then select **Next**.
 
@@ -125,7 +125,7 @@ Now that you have created a Core eDiscovery case, you can begin to work with the
     
 1. Review your settings and select **Submit**, it may take a minute, then select **Done**.  The Test hold should appear on the list.  If you don't immediately see it, select **Refresh**
 
-    ![](../Images/sc-900-lab15-T2-9.png)
+    ![](../Images/sc-900-lab15-T2-9upd.png)
 
 1. Keep this browser tab open, as you will use it in the subsequent task.
 
@@ -136,7 +136,7 @@ With a hold in place, you will create a search query.  Once your search is compl
 
 1. From the Holds page of the case, select **Searches** > **+ New Search**.
 
-    ![Picture 1](../Images/Asc-900-image45.png)
+    ![Picture 1](../Images/Asc-900-image45upd.png)
 
 1. In the Name field, enter **Test Hold – Sales Search**, then select **Next** from the bottom of the page.
 
