@@ -30,15 +30,15 @@ In this lab, you will complete the following tasks:
 
    * **Password** : **<inject key="AzureAdUserPassword"></inject>** 
 
-1. From the left navigation menu, under **System**, select **Settings**.
+1. From the left navigation menu, scroll down then select **Settings**.
 
-     ![Picture 1](../Images/Asc-900-image15.png)
+     ![Picture 1](../Images/sc-48.png)
 
 1. On the **Settings** page, select **Cloud apps**.
 
      ![Picture 1](../Images/Asc-900-image16.png)
    
-1. On the **Cloud apps** page, Under **Cloud Discovery**, select **Snapshot Reports (1)**, and click **+ Create Snapshot Report (2)**.
+1. On the **Cloud apps** page, under **Cloud Discovery**, select **Snapshot Reports (1)** and then click on **+ Create Snapshot Report (2)**.
 
     ![Picture 1](../Images/Asc-900-image17.png)
  
@@ -46,11 +46,21 @@ In this lab, you will complete the following tasks:
 
      ![Picture 1](../Images/Asc-900-image18.png)
 
-1. Under **Report Details** tab, Enter a **Report name** and a **Description**. Select the **source** from which you want to upload the log files. Click **View log format** then **Download sample log** and click on **Next**.
+1. Under **Report Details** tab, enter the following details.
+
+   - **Report name**: Enter **snapshot (1)**
+
+   - **Description**: Enter **Creating a cloud Discovery snapshots (2)**
+   
+   - **source**: Choose **Blue Coat ProxySG - Access log (W3C) (3)** from the drop-down to upload the log files. 
+   
+   - Click on **View log format (4)**
+   
+   - **Download sample log (5)** and then click on **Next**.
  
-   ![Picture 1](../Images/Asc-900-image19.png)
+     ![Picture 1](../Images/sc-49.png)
  
-1. Under **Upload Traffic Logs** Tab, In **Choose traffic logs** browse and upload the log file which you downloaded. Click **Upload logs >**.
+1. Under **Upload Traffic Logs** tab, click on **browse (1)** and upload the log file which you downloaded **(2)**. Click **Upload logs > (3)**.
 
       ![Picture 1](../Images/Asc-900-image20.png)
 
@@ -60,21 +70,49 @@ In this lab, you will complete the following tasks:
    
 1. After you upload your log files, it will take some minutes for them to be parsed and analyzed.
 
-1. Click on **Proccessing**, if you encounter error **All discovered cloud related transactions are more than 90 days** following the below subpoints else proceed with next step.
+1. Click on **Proccessing**.
+
+      ![Picture 1](../Images/sc-52.png)
+
+1. If you encounter error **All discovered cloud related transactions are more than 90 days**. Follow the below subpoints else proceed with next step.
 
     ![Picture 1](../Images/Asc-900-image30.png)
 
-    - Open the file you downloaded with Notepad and review the data.
-    - Here we need to changes the month ensure they fall within a 90-day period.
-    - Make sure the updated month and date are within the 90-day range, then save the file
+    - Naviagte to the downloaded zip file in file explorer. Then right click on the file click on **Extract all**.
 
-       ![Picture 1](../Images/Asc-900-image31.png)
+      ![Picture 1](../Images/sc-50.png)    
+
+    - Click on **Extract**.
+
+      ![Picture 1](../Images/sc-51.png)   
+
+    - Right click on the Extracted file, click on **Open with (1)** and then select **Notepad (2)**.
+
+      ![Picture 1](../Images/sc-53.png)
+
+    - Here we need to changes the month ensure they fall within a 90-day period.
+
+      ![Picture 1](../Images/sc-54.png)
+
+    - Make sure the updated month and date are within the 90-day range, then save the file by clicking on **File (1) -> Save (2)**.
+
+      ![Picture 1](../Images/sc-55.png)
+
+    - Before proceeding to the next step, please delete the failed snapshots that you have created earlier.
     
-    - On the **Cloud apps** page, Under **Cloud Discovery**, select **Snapshot Reports (2)**, and click **+ Create Snapshot Report (3)**.
+    - On the **Cloud apps** page, Under **Cloud Discovery**, select **Snapshot Reports (1)**, and click **+ Create Snapshot Report (2)**.
+
+      ![Picture 1](../Images/sc-56.png)
+
     - Under **Report Details** tab, Enter a **Report name** and a **Description**.
-    - Under **Upload Traffic Logs** Tab, In **Choose traffic logs** browse and upload the log file which you modified. Click **Upload logs >**.
+
+    - Under **Upload Traffic Logs** Tab, click on **browse** and upload the extracted log file which you modified. Click **Upload logs >**.
+
     - After the upload completes, click on **snapshot reports** link on **Create new Cloud Discovery snapshot report** page.
-    - Click on **Progressing** and this time you should not encounter with the error **All discovered cloud related transactions are more than 90 days**
+
+    - Click on **Progressing** and this time you should not encounter with the error **All discovered cloud related transactions are more than 90 days**. You should get the result like the below screenshot.
+
+      ![Picture 1](../Images/sc-57.png)    
 
 1. After you upload your log files, it will take some minutes for them to be parsed and analyzed.
 
@@ -92,9 +130,11 @@ In this lab, you will complete the following tasks:
     
     - Password: <inject key="AzureAdUserPassword"></inject>
     
-1. When prompted to stay signed-in, select **Yes**. This takes you to the Microsoft 365 admin center page.
+1. If prompted to stay signed-in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
+
+    ![Picture 1](../Images/sc-58.png)
 
 1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.  
 
@@ -116,6 +156,8 @@ In this lab, you will complete the following tasks:
 
 1. Select the **IP Addresses**, **Users**, and **Discovered resources** tab to see more detailed information.
 
+    ![Picture 1](../Images/sc-59.png)
+
 1. When you're done exploring the details page, return to discovered apps page, by selecting **Cloud Discovery** from the bread crumb on the top of the page.
 
 1. If you select Cloud discovery from the left navigation panel, it will take you back to the dashboard view.
@@ -136,12 +178,12 @@ In this lab, you will complete the following tasks:
 
 1. The information provided in these tabs is based on either snap-shot reports from traffic logs you manually upload from your firewalls and proxies or from continuous reports that analyze all logs that are forwarded from your network using Cloud App Security.
    
-1. You can connect to apps directly by setting up app connectors that will provide you with greater visibility and control over your cloud apps. From the top right corner of the screen, select **Actions** then select **Cloud Discovery Settings**.
+1. You can connect to apps directly by setting up app connectors that will provide you with greater visibility and control over your cloud apps. From the top right corner of the screen, select **Actions (1)** then select **Cloud Discovery Settings (2)**.
 
     ![Picture 1](../Images/Asc-900-image23.png)
     
-1. From the left side of the screen, under **Connected apps**, select **App connectors**. Now you'll set up a new app connector.  Select **+ Connect an app** and from 
-   the drop-down list select **Microsoft 365**.
+1. From the left side of the screen, under **Connected apps**, select **App connectors (1)**. Now you'll set up a new app connector.  Select **+ Connect an app (2)** and from 
+   the drop-down list select **Microsoft 365 (3)**.
 
    ![Picture 1](../Images/Asc-900-image24.png)
    
@@ -159,6 +201,10 @@ In this lab, you will complete the following tasks:
     ![Picture 1](../Images/Asc-900-image27.png)
    
 1. From the Microsoft Azure pop-up window, select **Connect Microsoft Azure** then select **Done**.  You'll see a connected status (if you don't see it, refresh the browser) and information on scanning users, data, and activities.
+
+    ![Picture 1](../Images/sc-60.png)
+
+    ![Picture 1](../Images/sc-61.png)    
   
 1. Back on **App Connectors** review the status for both **Microsoft 365** and **Microsoft Azure**.
     
@@ -174,11 +220,11 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 
     >**Note**: The Cloud app catalog enables you to choose apps that fit your organization's security requirements. Admins can do basic filtering of apps as shown on the top of the page, which includes whether the app is sanctioned, unsanctioned, or has no tag, risk score, Compliance risk factor, and security risk factor.  For example, filtering by compliance risk factor lets you search for a specific standards, certification, and compliance that the app may comply with. Examples include HIPAA, ISO 27001, SOC 2, and PCI-DSS.
 
-1. Select **Compliance risk factor** to view the available options.  You can further filter by risk score, by moving the sliders on the risk score on the top of the page. If you moved the slide, be sure to set it so the range is set at 0 to 10.
+1. Select **Compliance risk factor (1)** to view the available options.  You can further filter by risk score, by moving the sliders on the risk score on the top of the page. If you moved the slide, be sure to set it so the range is set at 0 to 10 **(2)**.
 
      ![Picture 1](../Images/Asc-900-image32.png)
 
-1. Admins can also search for apps by category.  For example, in the Apps search bar field enter **Microsoft Viva Engage**, then select **Social network**.  Select **Microsoft Viva Engage** for a detailed view.  Hovering your mouse over any topics for a given category will show an information icon that you can select to get more information about that topic.
+1. Admins can also search for apps by category.  For example, in the Apps search bar field enter **Microsoft Viva Engage (1)**, then select **Social network (2)**.  Select **Microsoft Viva Engage** for a detailed view.  Hovering your mouse over any topics for a given category will show an information icon that you can select to get more information about that topic.
 
    ![Picture 1](../Images/Asc-900-image33.png)
 
@@ -206,7 +252,7 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 
 1. Select **Cancel** to exit of the policy creation window, then select **Leave page**.
 
-1. From the left navigation panel, select **Activity Log**, under **Cloud apps**. Here you get visibility into all the activities from your connected apps.
+1. From the left navigation panel, select **Activity Log (1)**, under **Cloud apps**. Here you get visibility into all the activities from your connected apps **(2)**.
    
    ![Picture 1](../Images/file-3.png)
 
