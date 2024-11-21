@@ -154,17 +154,17 @@ With a hold in place, you will create a search query.  Once your search is compl
 
 1. Review your settings and select **Submit**, it may take a minute, then select **Done**.  The search should appear on the list.  If you don't immediately see it, select **Refresh**
 
-    ![](../Images/sc-900-lab15-T2-14.png)
+    ![](../Images/sc-900-lab15-T2-14upd.png)
     
-     ![](../Images/sc-900-lab15-T2-15.png)
+     ![](../Images/sc-900-lab15-T2-15upd.png)
 
 1. From the Searches window, select the search you just created, **Test Hold - Sales Search**.  A window that opens with the Summary tab selected.  Once the search is complete the status will indciate that the search is completed.  You will see a Search statistics tab (if you don't see the Search statistics tab, the search may still be running and may take a few minutes to complete). 
 
-    ![](../Images/sc-900-lab15-T2-16.png)
+    ![](../Images/sc-900-lab15-T2-16upd.png)
 
 1. From the bottom of the page, select **Actions**.  Note the available options that include export options (the export options cannot be selected from within the lab platform provided by the authorized lab hoster, but are available in a production environment and are considered part of the standard workflow). Select **Close**.
 
-      ![](../Images/sc-900-lab15-T2-18.png)
+      ![](../Images/sc-900-lab15-T2-18upd.png)
 
 1. Sign out and close all open browser windows. 
 
