@@ -184,8 +184,8 @@ In this task, you will walk through the creation of a policy.
 
 1. In the policy you just created, the "Users in scope" field represents users that are currently being assigned risk scores by the policy.  Assigning users a risk scores occurs when the policy is triggered which is why the value shows 0.  An admin can configure a policy to start assigning risk scores to specific users, based on activity detected by the policies you selected and, which bypasses the requirement that a triggering event is detected first.  To do this, select the empty circle next to the policy name to select the policy, then select **Start scoring activity for users**, which is shown above the policy table.  Populate each field, then select **Start scoring activity**.  It can take 24 hours for the users to appear on the 'Users' tab. After that time, you can select the users from that tab to review detected activities.
 
-    ![](../Images/sc-900-lab14-T3-19upd.png)
-    ![](../Images/L14T4S14upd.png)
+    ![](../Images/sc-900-lab14-T3-19upd1.png)
+    ![](../Images/L14T4S14upd1.png)
 
 ## Review
 In this lab, you have completed:
