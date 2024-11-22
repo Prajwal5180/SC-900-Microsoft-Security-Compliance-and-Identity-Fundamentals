@@ -115,7 +115,7 @@ In this task you will walk through the settings associated with the Insider Risk
       detection Determines how far back a policy should go to detect user activity and is triggered when a user performs the first activity matching a policy.  Leave the 
       default values.  Select the **Intelligent detections** tab.
 
-      ![](../Images/sc-900-lab14-T3-4upd1.png)
+      ![](../Images/sc-900-lab14-T3-4upd2.png)
    
    iv. Intelligent detections tab:  Review the options here.  Note the domains settings and how they relate to the indicators.
 
