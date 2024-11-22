@@ -119,7 +119,7 @@ In this task you will walk through the settings associated with the Insider Risk
    
    iv. Intelligent detections tab:  Review the options here.  Note the domains settings and how they relate to the indicators.
 
-      ![](../Images/sc-900-lab14-T3-5upd.png)
+      ![](../Images/sc-900-lab14-T3-5upd1.png)
    
    v. Other items listed in the settings are in preview.  Explore these at will and note that as a preview, they are subject to change.
 
@@ -178,7 +178,7 @@ In this task, you will walk through the creation of a policy.
 
    ![](../Images/sc-900-lab14-T3-17upd.png)  
    
-   ![](../Images/sc-900-lab14-T3-18upd.png)  
+   ![](../Images/sc-900-lab14-T3-18upd1.png)  
 
 1. You are back on the Policies tab of the Insider risk management page.The policy you just created will be listed.  
 
