@@ -90,7 +90,7 @@ In this task you, as an eDiscovery Administrator (ODL admin is an eDiscovery adm
 
 1. The case should now appear on the list.
 
-    ![](../Images/sc-900-lab15-T2-3upd1.png)
+    ![](../Images/sc-900-lab15-T2-3upd2.png)
 
 1. As the creator of the case and because you have eDiscovery Administrator privileges, you can begin to work with it.  
 
@@ -105,7 +105,7 @@ Now that you have created a Core eDiscovery case, you can begin to work with the
 
 1. From the Home page of the case, select the **Hold** tab then select **+ Create**.
 
-    ![](../Images/sc-900-lab15-T2-4upd1.png)
+    ![](../Images/sc-900-lab15-T2-4upd2.png)
 
 1. In the name field, enter **Test hold** then select **Next**.
 
