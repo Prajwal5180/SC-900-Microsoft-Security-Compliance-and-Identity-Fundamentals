@@ -176,7 +176,7 @@ In this task, you will walk through the creation of a policy.
     
 1. Finish:  review the settings, select **Submit**, then select **Done**.
 
-   ![](../Images/sc-900-lab14-T3-17upd.png)  
+   ![](../Images/sc-900-lab14-T3-17upd1.png)  
    
    ![](../Images/sc-900-lab14-T3-18upd1.png)  
 
