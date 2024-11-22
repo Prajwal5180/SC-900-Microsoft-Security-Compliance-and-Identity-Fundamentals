@@ -2,7 +2,7 @@
 
 ## Lab scenario
 In this lab, you will walk through the process of setting up an insider risk policy, along with the basic prerequisites to configure and use insider risk management policies.  
-**Note:**  This lab will only provide visibility into what is required for setting up Insider risk management and options associated with creating a policy.  This lab does not include a task to trigger the policy, as the number of events that would need to occur to trigger a policy are outside of the scope of this exercise.
+>**Note:** This lab will only provide visibility into what is required for setting up Insider risk management and options associated with creating a policy.  This lab does not include a task to trigger the policy, as the number of events that would need to occur to trigger a policy are outside of the scope of this exercise.
 
 ## Lab objectives
 
@@ -71,16 +71,12 @@ In this task, you, as the global administrator, will enable permissions for Insi
 
 ## Task-2: Enable the Audit log search capability (SKIP if you did the setup lab task to enable the audit log)
 Insider risk management uses Microsoft 365 audit logs for user insights and activities identified in policies and analytics insights. In this task, you will enable the Audit log search capability. 
-**Note:** It may take several hours after you turn on audit log search before you can return results when you search the audit log.  Although, it can take several hours before you can search the audit log, it will not impact the ability to complete other tasks in this lab.
+>**Note:** It may take several hours after you turn on audit log search before you can return results when you search the audit log.  Although, it can take several hours before you can search the audit log, it will not impact the ability to complete other tasks in this lab.
 
 1. In the left navigation pane select **Solutions (1)** and then **Audit (2)**.
 
    ![](../Images/go-toupd.png)
    
-1. From the left navigation panel of the Microsoft 365 compliance center, select **Show all**.
-
-1. In the left navigation panel, under solutions, select **Audit**.
-
 1. Once you land on the Audit page, wait 2-3 minutes.  If Auditing is NOT enabled, you will see a blue bar on the top of the page that says start recording user and admin activity.  Select **Start recording user and admin activity**.  Once auditing is enabled, the blue bar disappears.  If the blue bar is not present then auditing is already enabled, and no further action is required.
 
 1. When the pop-up appears, click "**Yes** and then "**OK**".
