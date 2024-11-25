@@ -21,7 +21,7 @@ In this lab, you will complete the following tasks:
   
 ## Task 1:  Create a Microsoft Sentinel instance
 
-1. In the Azure portal, in the **Search resources, services, and docs** search for **Microsoft Sentinel (1)** then select **Microsoft Sentinel (2)** from the search results.  
+1. In the Azure portal, in the **Search resources, services, and docs** search for **Microsoft Sentinel (1)** then select **Microsoft Sentinel (2)** from the search results.
 
    ![Picture 1](../Images/sc-14.png)
 
@@ -35,14 +35,13 @@ In this lab, you will complete the following tasks:
 
 1. From the basics tab of the Create Log Analytics workspace, enter the following details and then click on **Review + Create (5)**.
 
-    | Setting | Action |
-    | -- | -- |
-    | Subscription |  **Select the given subscription (1)**  |
+    | Setting        | Action                                                                            |
+    | ---------------| --------------------------------------------------------------------------------|
+    | Subscription   |  **Select the given subscription (1)**  |
     | Resource group | Select **SC900-ResourceGroup (2)** |
     | Name | **SC900-LogAnalytics-workspace-<inject key="DeploymentID" enableCopy="false"/> (3)** |
     | Region | leave this default **(4)** |
-    |||
-
+   
     ![Picture 1](../Images/sc-17.png)
 
 1. Once the Validation is passed, then select **Create**.
@@ -59,7 +58,7 @@ In this lab, you will complete the following tasks:
    
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 <validation step="e6ffbb4b-3ecb-42af-9dcd-0c1044de2a66" />
