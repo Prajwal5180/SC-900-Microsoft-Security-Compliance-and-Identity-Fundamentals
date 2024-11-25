@@ -68,7 +68,7 @@ In this lab, you will complete the following tasks:
 
 With the Microsoft Sentinel instance created, it is important that users that will have responsibility to support Microsoft Sentinel have the necessary permissions.  This is done by assigning the designated user the required role permissions. In this task, you'll view the available, built-in Microsoft Sentinel roles.
 
-1. In the **Search resources, services, and docs** search for **Resource groups (1)** then select **Resource groups (2)** from the search results. 
+1. In the **Search resources, services, and docs** search for **Resource groups (1)** then select **Resource groups (2)** from the search results.
 
       ![Picture 1](../Images/sc-20.png)
 
@@ -82,7 +82,7 @@ With the Microsoft Sentinel instance created, it is important that users that wi
       >**Note**:  For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary 
       resources as shown in the description. It is important, however, to understand the available Sentinel specific roles. Note the current role is Owner.
   
-      >**NOTE:**  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel: 
+      >**NOTE:**  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel:
         https://docs.microsoft.com/en-us/azure/sentinel/roles
    
 1. Select the **Access Control (IAM) (1)**, select **View my access (2)** to confirm the **Owner (3)** role has been added, then close the window by select the **X (4)** on the top-right corner of the window.
@@ -99,7 +99,7 @@ With the Microsoft Sentinel instance created, it is important that users that wi
       - In the search box, enter **Microsoft Sentinel (2)** to view the built-in roles associated with Microsoft Sentinel.
   
       - From any of the roles listed **(3)**, select **View (4)** to view the details of that role. As a best practice you should assign the least privilege required for 
-       the role.  
+       the role.
   
       - Close the window by selecting the **X (5)** on the top-right corner of the window.
   
@@ -109,12 +109,12 @@ With the Microsoft Sentinel instance created, it is important that users that wi
 
       ![Picture 1](../Images/sc-24.png)
 
-    > - **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> - **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-    <validation step="6ef79789-58a4-4dc4-a65e-8b5aacef02c1" />
+<validation step="6ef79789-58a4-4dc4-a65e-8b5aacef02c1" />
 
 ## Task 3: Data connector to your instance of Microsoft Sentinel
 
