@@ -108,6 +108,13 @@ With the Microsoft Sentinel instance created, it is important that users that wi
 
    ![Picture 1](../Images/sc-24.png)
 
+> - **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+<validation step="6ef79789-58a4-4dc4-a65e-8b5aacef02c1" />
+
 ## Task 3: Data connector to your instance of Microsoft Sentinel
 
 In this task you will walk through the steps involved in setting up a data connector to your instance of Microsoft Sentinel and selecting a built-in workbook templates to allow you to quickly gain insights across your data as soon as you connect a data source. Note: Azure lab subscriptions may experience greater than normal delays in connecting to a data source and/or visualizing data.
