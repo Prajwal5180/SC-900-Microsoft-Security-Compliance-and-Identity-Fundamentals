@@ -1,0 +1,68 @@
+[
+    {
+        "Name": "Explore Microsoft Entra ID",
+        "Language": "English",
+        "Files": [
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/LabIntrov2.md",
+                "Order": 1
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/LAB_01_explore_azure_ad.md",
+                "Order": 2
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/LAB_02_explore_azure_sspr.md",
+                "Order": 3
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/LAB_03_explore_cond_access.md",
+                "Order": 4
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/LAB_04_explore_pim.md",
+                "Order": 5
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/LAB_05_explore_nsg.md",
+                "Order": 6
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/LAB_06_explore_msdefender.md",
+                "Order": 7
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/LAB_07_explore_sentinel.md",
+                "Order": 8
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/LAB_08_explore_mcas.md",
+                "Order": 9
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/LAB_09_explore_m365_defender_portal.md",
+                "Order": 10
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/Lab-11-combinedlab.md",
+                "Order": 11
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/Lab-12-combinedlab.md",
+                "Order": 12
+            }
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/Lab-13-combinedlab.md",
+                "Order": 13
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/Lab-14-combinedlab.md",
+                "Order": 14
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/Lab-15-combinedlab.md",
+                "Order": 15
+            }
+        ]
+    }
+]
