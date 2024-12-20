@@ -1,0 +1,16 @@
+[
+    {
+        "Name": "Explore Microsoft Entra ID",
+        "Language": "English",
+        "Files": [
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/LabIntrov2.md",
+                "Order": 1
+            },
+            {
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/LAB_01_explore_azure_ad.md",
+                "Order": 2
+            }
+        ]
+    }
+]
