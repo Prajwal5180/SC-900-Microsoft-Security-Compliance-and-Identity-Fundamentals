@@ -44,23 +44,23 @@
                 "Order": 10
             },
             {
-                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/LAB_11_explore_service_trust_portal.md",
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/Lab-11-combinedlab.md",
                 "Order": 11
             },
             {
-                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/LAB_12_explore_compliance_mgr.md",
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/Lab-12-combinedlab.md",
                 "Order": 12
             }
             {
-                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/LAB_13_explore_senstivity_labels.md",
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/Lab-13-combinedlab.md",
                 "Order": 13
             },
             {
-                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/LAB_14_explore_insider_risk_mgt.md",
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/Lab-14-combinedlab.md",
                 "Order": 14
             },
             {
-                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/LAB_15_explore_core_ediscovery.md",
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/Lab-15-combinedlab.md",
                 "Order": 15
             }
         ]
