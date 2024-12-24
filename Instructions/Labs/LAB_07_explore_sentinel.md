@@ -75,23 +75,15 @@ With the Microsoft Sentinel instance created, it is important that users that wi
 
    ![Picture 1](../Images/sc-21.png)
    
-   >**Note**: Working at the resource group level will ensure that any role that is selected will apply to all the resources that are part of the Microsoft Sentinel 
-    instance that was created in the previous task.
+   >**Note**: Working at the resource group level will ensure that any role that is selected will apply to all the resources that are part of the Microsoft Sentinel instance that was created in the previous task.
   
-   >**Note**:  For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary 
-    resources as shown in the description. It is important, however, to understand the available Sentinel specific roles. Note the current role is Owner.
+   >**Note**:  For the Azure subscription provided to you in this lab environment, a role has been defined that will give you access to manage all necessary resources as shown in the description. It is important, however, to understand the available Sentinel specific roles. Note the current role is Owner.
   
-   >**NOTE:**  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel:
-    https://docs.microsoft.com/en-us/azure/sentinel/roles
+   >**NOTE:**  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel: https://docs.microsoft.com/en-us/azure/sentinel/roles
    
 1. Select the **Access Control (IAM) (1)**, select **View my access (2)** to confirm the **Owner (3)** role has been added, then close the window by select the **X (4)** on the top-right corner of the window.
 
    ![Picture 1](../Images/sc-22.png)
-   
-   >**Note**: For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary 
-   resources, as  shown in the description. It is important, however, to understand the available Sentinel specific roles.
-   
-   >**Note**: The current role is Owner.
 
 1. From the Access control page, select the **Roles (1)** tab on the top of the page.
 
@@ -117,7 +109,8 @@ With the Microsoft Sentinel instance created, it is important that users that wi
 
 ## Task 3: Data connector to your instance of Microsoft Sentinel
 
-In this task you will walk through the steps involved in setting up a data connector to your instance of Microsoft Sentinel and selecting a built-in workbook templates to allow you to quickly gain insights across your data as soon as you connect a data source. Note: Azure lab subscriptions may experience greater than normal delays in connecting to a data source and/or visualizing data.
+In this task you will walk through the steps involved in setting up a data connector to your instance of Microsoft Sentinel and selecting a built-in workbook templates to allow you to quickly gain insights across your data as soon as you connect a data source. 
+   >**Note**: Azure lab subscriptions may experience greater than normal delays in connecting to a data source and/or visualizing data.
 
 1. In the **Search resources, services, and docs** search for **Microsoft Sentinel (1)** then select **Microsoft Sentinel (2)** from the search results.
 
@@ -143,6 +136,8 @@ In this task you will walk through the steps involved in setting up a data conne
 
    ![Picture 1](../Images/sc-29.png)
 
+   >**Note**: You may need to select the "**>>**" at the far-right side of the window to see the information panel
+   
 1. Once installation process is done, navigate back to **Microsoft Sentinel | Data connector** page and refresh the page to get **Microsoft Defender for Cloud** option.
 
    ![Picture 1](../Images/sc-30.png)
@@ -151,6 +146,8 @@ In this task you will walk through the steps involved in setting up a data conne
  
     ![Picture 1](../Images/sc-31.png)
 
+   >**Note**: You may need to select the "**>>**" at the far-right side of the window to see the information panel
+   
 1. From the **Subscription-based Microsoft Defender for Cloud (Legacy)** connector page, review the Description on the left side of the window.
 
    ![Picture 1](../Images/sc-32.png)
@@ -177,6 +174,8 @@ In this task you will walk through the steps involved in setting up a data conne
 
     ![Picture 1](../Images/sc-35.png) 
 
+   >**Note**: You may need to zoom out a little in the browser window to see the Create rule option.
+   
 1. Although the details of the rule logic are beyond the scope of the fundamentals, go through each tab in the rule creation to view the type of information that can be configured.
 
 1. When you reach the **Review + create (1)** tab, select **Save (2)**.
