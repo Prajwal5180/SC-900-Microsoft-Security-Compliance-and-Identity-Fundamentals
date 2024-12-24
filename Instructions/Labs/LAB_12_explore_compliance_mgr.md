@@ -79,13 +79,13 @@ In this lab, you will complete the following tasks:
 
      ![](../Images/E12T2S4.png)
 
- 5. Exit out of this improvement action by selecting **Improvement Actions** from the breadcrumb on the top left of the page.  You are now back on the improvement actions page.
+ 5. Exit out of this improvement action by selecting **Improvement Actions** from the breadcrumb on the top left of the page. You are now back on the improvement actions page.
 
      ![](../Images/E12T2S5.png)
 
  6. From the left navigation pane, select **Solutions**. On this page, you'll see how solutions contribute to your score and their remaining opportunity for improvement.
 
- 7. From the left navigation pane, select **Assessments**. On this page you will see the Data Protection Baseline.  This is a default assessment Microsoft provides in Compliance Manager for the Microsoft 365 data protection baseline.  This baseline assessment has a set of controls for key regulations and standards for data protection and general data governance. Compliance Manager becomes more helpful as you build and manage your own assessments to meet your organization's particular needs.
+ 7. From the left navigation pane, select **Assessments**. On this page you will see the Data Protection Baseline. This is a default assessment Microsoft provides in Compliance Manager for the Microsoft 365 data protection baseline.  This baseline assessment has a set of controls for key regulations and standards for data protection and general data governance. Compliance Manager becomes more helpful as you build and manage your own assessments to meet your organization's particular needs.
 
      ![](../Images/E12T2S7.png)
 
