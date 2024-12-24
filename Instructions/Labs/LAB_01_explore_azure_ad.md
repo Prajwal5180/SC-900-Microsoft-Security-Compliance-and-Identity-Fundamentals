@@ -78,7 +78,7 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 
     ![](../Images/T2-S1.png)
 
-1. Populate the **New Group** fields as follows and Select **Create**
+1. Populate the **New Group** fields as follows and select **Create**
 
     1. Group type: **Microsoft 365**.
 
@@ -155,7 +155,7 @@ In this task, you’ll learn how to create a new user in the Microsoft Entra ID 
 
     ![](../Images/sc900-image15.png)
     
-1. From the left navigation panel select **Licenses**.  Notice that there are no license assignments found for this user.
+1. From the left navigation panel select **Licenses**.  Notice that there is no license assignments found for this user.
 To add a license, click on **Go to the Microsoft 365 admin center** from the alert message.
 
      ![](../Images/T3-S11.png)
@@ -232,10 +232,9 @@ In this task, you will sign in as Sara Perez, for the first time.
 
 ## Review
 In this lab, you have completed:
-- Accessing  Microsoft Entra ID through the Microsoft 365 Admin portal and through the Azure portal
+- Accessing Microsoft Entra ID through the Microsoft 365 Admin portal and through the Azure portal
 - Creating a basic group
 - Create a new user in the Microsoft Entra ID and explore some of the services
 - Sign in to the user first time
 
 ## You have successfully completed the lab
-

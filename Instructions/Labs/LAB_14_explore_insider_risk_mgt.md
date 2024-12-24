@@ -94,12 +94,12 @@ Insider risk management uses Microsoft 365 audit logs for user insights and acti
 ## Task 3: Apply to all insider risk management policies
 In this task you will walk through the settings associated with the Insider Risk Management solution.  Insider risk management settings apply to all insider risk management policies, regardless of the template you choose when creating a policy. 
 
-1. Select **Settings** from the left navigation pane, then select **Insider Risk Management** .Here you'll explore some of the available settings.
+1. Select **Settings** from the left navigation pane, then select **Insider Risk Management**. Here you'll explore some of the available settings.
 
     ![](../Images/sc-900-lab14-T3-1upd.png)
     
    i. Privacy tab:  For users who perform activities matching your insider risk policies, this setting will determine whether to show their actual names or use 
-      anonymized versions to mask their identities.  Select **Do not show anonymized versions of usernames** then select **Save**.  Select the  **Policy indicators** 
+      anonymized versions to mask their identities.  Select **Do not show anonymized versions of usernames** then select **Save**. Select the  **Policy indicators** 
       tab.
 
       ![](../Images/sc-900-lab14-T3-2upd.png)
@@ -144,7 +144,7 @@ In this task, you will walk through the creation of a policy.
 
     ![](../Images/sc-900-lab14-T3-9upd.png)
     
-1. Users and groups:  Review the information box.  Leave the default setting, **All users, groups, and adpative scopes**.  Select **Next**.
+1. Users and groups:  Review the information box.  Leave the default setting, **All users, groups, and adaptive scopes**.  Select **Next**.
 
     ![](../Images/sc-900-lab14-T3-10upd.png)
 
@@ -156,7 +156,7 @@ In this task, you will walk through the creation of a policy.
 
    ![](../Images/sc-900-dec24-lab14-6.png)
                
-1. Triggering event: Review the detailed information. The policy is triggered by either the user performing an exfiltration activity as defined (select the information icons for each bullet point for more detailed information) OR a match to an existing Data Loss Prevention (DLP) policy.  Since you don’t have any DLP policy configured as part of this exercise, select **User performs an exfiltration activity**.  Scroll down to see what is automatically selected.  Note that the policy indicators you enabled in the previous task are checked.   Recall that these indicators will only be activated once the policy is triggered and any activities that map to these indicators  will be used in calculating a risk score for the user.  In addition, Sequence detection is enabled.  If a sequence of activities, as defined, is detected then it suggests greater risk.  Select the information icon for detailed information on which indicators are required.  This selection requires that certain indicators be selected and that devices be onboarded. Scroll down and Leave the defaults and click **Next**
+1. Triggering event: Review the detailed information. The policy is triggered by either the user performing an exfiltration activity as defined (select the information icons for each bullet point for more detailed information) OR a match to an existing Data Loss Prevention (DLP) policy.  Since you don’t have any DLP policy configured as part of this exercise, select **User performs an exfiltration activity**.  Scroll down to see what is automatically selected.  Note that the policy indicators you enabled in the previous task are checked.   Recall that these indicators will only be activated once the policy is triggered and any activities that map to these indicators will be used in calculating a risk score for the user.  In addition, Sequence detection is enabled.  If a sequence of activities, as defined, is detected then it suggests greater risk.  Select the information icon for detailed information on which indicators are required.  This selection requires that certain indicators be selected and that devices be onboarded. Scroll down and leave the defaults and click **Next**
 
    ![](../Images/sc-900-dec24-lab14-7.png)
 
@@ -184,7 +184,7 @@ In this task, you will walk through the creation of a policy.
    
    ![](../Images/sc-900-dec24-lab14-13.png)  
 
-1. You are back on the Policies tab of the Insider risk management page.The policy you just created will be listed.  
+1. You are back on the Policies tab of the Insider risk management page. The policy you just created will be listed.  
 
 1. In the policy you just created, the "Users in scope" field represents users that are currently being assigned risk scores by the policy.  Assigning users a risk scores occurs when the policy is triggered which is why the value shows 0.  An admin can configure a policy to start assigning risk scores to specific users, based on activity detected by the policies you selected and, which bypasses the requirement that a triggering event is detected first. To do this, select the checkbox next to the policy name to select the policy, then select **Start scoring activity for users**, which is shown above the policy table. Populate each field, then select **Start scoring activity**. It can take 24 hours for the users to appear on the 'Users' tab. After that time, you can select the users from that tab to review detected activities.
 

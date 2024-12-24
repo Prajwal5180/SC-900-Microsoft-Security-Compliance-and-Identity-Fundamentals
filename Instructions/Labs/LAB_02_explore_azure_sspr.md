@@ -208,7 +208,7 @@ In this task, you as user **Adele Vance**, will go through the registration proc
 
    ![](../Images/enter-code(1).png)
 
-1. A window opens indicating **Verification complete. Your phone has been registered.** Select **Next**.
+1. A window opens indicating **Verification complete. Your phone has been registered**.  Select **Next**.
 
    ![](../Images/auth71.png)
    

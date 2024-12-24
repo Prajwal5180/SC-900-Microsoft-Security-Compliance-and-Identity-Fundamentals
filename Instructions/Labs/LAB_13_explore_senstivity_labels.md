@@ -40,7 +40,7 @@ In this task you will gain an understanding of what sensitivity labels can do by
 
     ![](../Images/sc-900-dec24-lab13-1.png)
 
-1. Sometimes, A new browser page opens.Since you are already signed in, your email will be listed. You can select your email address, to log in to Microsoft Purview.
+1. Sometimes, A new browser page opens. Since you are already signed in, your email will be listed. You can select your email address, to log in to Microsoft Purview.
     
     ![](../Images/L13-T1-S7.png)
 
@@ -124,7 +124,7 @@ In this task you will gain an understanding of what sensitivity labels can do by
 
     ![](../Images/L13-T1-S23.png)
 
-1. This next window is a preview feature to automatically apply this label to Azure database columns (such as SQL, Synapse, and more) that contain the sensitive info types you choose. This features is not enabled. Select **Next** on the bottom of the page.
+1. This next window is a preview feature to automatically apply this label to Azure database columns (such as SQL, Synapse, and more) that contain the sensitive info types you choose. This feature is not enabled. Select **Next** on the bottom of the page.
 
       ![](../Images/sc-900-jap19.png)
        
@@ -273,7 +273,7 @@ In this task, you will go through the process of applying a label from the persp
 1. Close the Microsoft Word tabs that are open on your browser to exit from Word.
 
 ## Task 3 (optional): Impact of that label
-In addition to content marking, the label protection setting was set for encryption. Per the permissions that were configured with this label, members of the finance group can co-author documents with this label applied and users in the Contoso tenant can view (or any document/email with the label applied).  In this task you will send this document to an email address to which you have access (ie., a personal email address) and that is NOT part of the .OnMicrosoft.com domain and see what happens when you try to open the attachment.  
+In addition to content marking, the label protection setting was set for encryption. Per the permissions that were configured with this label, members of the finance group can co-author documents with this label applied and users in the Contoso tenant can view (or any document/email with the label applied).  In this task you will send this document to an email address to which you have access (ie., a personal email address) and that is NOT part of the OnMicrosoft.com domain and see what happens when you try to open the attachment.  
 
 1. From the Microsoft Purview home page, select the **app launcher icon**, and **right click on the Outlook icon** and select **Open in new tab**.
 
