@@ -28,7 +28,7 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 
 1. Sign in with the following credentials.
     
-    -  In the Sign in window enter following email  then select **Next**.
+    -  In the Sign in window enter following email then select **Next**.
 
        * Email : **<inject key="AzureAdUserEmail"></inject>**
      
@@ -44,9 +44,9 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 
     ![](../Images/sc900-image5.png)
 
-1. A new browser page opens to the My Dashboard page of the Microsoft Entra admin center. From the dashboard’s main windows, you will see several tiles, including the Organization’s Identity tile ( the tenant and the Azure AD edition), a tile for users and groups, and more.
+1. A new browser page opens to the My Dashboard page of the Microsoft Entra admin center. From the dashboard’s main windows, you will see several tiles, including the Organization’s Identity tile, a tile for users, groups, and more.
 
-1. From the left navigation pane, under favorites select **Identity**.  In the main window, you will see another navigation panel that lists all the services that are available in Azure AD. To the right, you will see information about the tenant and links to identity types you can create and featured services.  
+1. From the left navigation pane, under favorites select **Identity**. In the main window, you will see another navigation panel that lists all the services that are available in Microsoft Entra ID. To the right, you will see information about the tenant and links to identity types you can create and featured services.  
 
     ![](../Images/sc900-image6.png)
  
@@ -74,6 +74,8 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 
 1. On the Microsoft Entra ID page, from left navigation pane select **Groups** under the **Manage** section and then select **New group**.
 
+    ![](../Images/sc-900-dec24-lab1-4.png)
+
     ![](../Images/T2-S1.png)
 
 1. Populate the **New Group** fields as follows and Select **Create**
@@ -88,7 +90,7 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 
         ![](../Images/sc900-image9.png)
 
-       > **Note:** Kindly refresh the screen if the newly created group is not visible.
+       > **Note:** Kindly refresh the screen if the newly created group is not visible in **All groups** section.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
@@ -105,19 +107,19 @@ In this task, you’ll learn how to create a new user in the Microsoft Entra ID 
 
     ![](../Images/T3-S1.png)
 
-1. Notice that your tenant is already configured with users. Select **+ New user** at the top of the page and select **create new user** from the drop down.
+1. Notice that your tenant is already configured with users. Select **+ New user** at the top of the page and select **Create new user** from the drop down.
 
     ![](../Images/sc900-image10.png)
    
-1. Populate the **Identity** fields as follows and select **Next: Properties >**.
+1. Populate the **Identity** fields as follows and select **Next: Properties > (5)**.
 
-    1. User principal name: **sara**
+    1. User principal name: **sara (1)**
 
-    1. Display Name : **Sara Perez**
+    1. Display Name : **Sara Perez (2)**
 
-    1. Uncheck **Auto-generate password**
+    1. Uncheck **Auto-generate password (3)**
 
-    1. Password:  enter a temporary password that adheres to the password requirements and make note of it, as you will need it to complete the subsequent task.
+    1. Password:  **Enter a temporary password (4)** that adheres to the password requirements and make note of it, as you will need it to complete the subsequent task.
     
     >**Note** : When Sara signs in for the first time, she will be prompted to change her password.
 
@@ -125,23 +127,23 @@ In this task, you’ll learn how to create a new user in the Microsoft Entra ID 
 
 1. On the **Properties** tab under settings specify the following and select **Next: Assignments >**
 
-   1. Usage location: **United States** (select the drop-down then scroll down to find this option). Configuring usage location is required for assigning licenses.
+   - Usage location: **United States** (select the drop-down then scroll down to find this option). Configuring usage location is required for assigning licenses.
 
       ![](../Images/sc900-image(11).png)
    
 1. In the **Assignments** tab :
 
-    - Click **Add Group**, this displays the available groups.  Notice the list of available groups.
+    - Click **+ Add Group**, this displays the available groups.  Notice the list of available groups.
 
     - Select **Operations**, you may need to scroll down, then press **Select**. Notice how the text next to groups has been updated to reflect 1 group selected.  
 
        ![](../Images/sc900-image12.png)
 
-1. Next to Roles, select **Add role**. The list of Directory roles appears.  Scroll down to view the various built-in roles, to view the various roles, but don’t change the user role.  Close out of this window by selecting the **X** on the top right-hand corner of the page.
+1. Next to Roles, select **+ Add role**. The list of Directory roles appears.  Scroll down to view the various built-in roles, to view the various roles, but don’t change the user role.  Close out of this window by selecting the **X** on the top right-hand corner of the page.
 
       ![](../Images/sc900-image13.png)
 
-1. From the bottom of the page, select the **Review + create** and **Create** button.
+1. From the bottom of the page, select the **Next: Review + create >** and then **Create** button.
 
 1. Navigate back to **Microsoft Entra ID** user blade and verify the user appears on the user list (names are listed in alphabetical order). Kindly refresh the screen if the newly created user is not visible.
 
@@ -170,13 +172,13 @@ To add a license, click on **Go to the Microsoft 365 admin center** from the ale
 
      ![](../Images/T3-S14.png)
 
-1. A window will open displaying the user's information. Select the **Licenses and apps tab (1)**. Check the box for **Office 365 E3 (no Teams) license (2)** and click **Save changes (3)**. A notification at the top of the screen will confirm that the license assignment was successful. Close the window by clicking the **X (4)** in the top-right corner.
+1. A window will open displaying the user's information. Select the **Licenses and apps (1)** tab. Check the box for **Office 365 E3 (no Teams) license (2)** and click **Save changes (3)**. A notification at the top of the screen will confirm that the license assignment was successful. Close the window by clicking the **X (4)** in the top-right corner.
 
      ![](../Images/T3-S15a.png)
 
 1. You have successfully created and configured a user in Microsoft Entra ID.
 
-1. Navigate back to the Microsoft Azure Portal and return to the Microsoft Entra ID Overview page. **Copy** the **email address** of the newly created user (e.g., sara@azureholxxxx.onmicrosoft.com), as you will use it to sign in for the next task.
+1. Navigate back to the Microsoft Azure Portal and return to the Microsoft Entra ID Overview page. **Copy** the **email address** of the newly created user (e.g., sara@otuwamocxxxx.onmicrosoft.com), as you will use it to sign in for the next task.
 
    >**Note**: You can retrieve the email ID from the environment details page.
 
@@ -207,7 +209,7 @@ In this task, you will sign in as Sara Perez, for the first time.
 
    ![](../Images/sc900-image18.png)
 
-   >**Note** : You can retrieve the email ID from the environment details page.
+   >**Note** : You can retrieve the email ID from the Entra ID Users page.
 
 1. Enter the temporary password that you have provided earlier.
 
@@ -215,13 +217,16 @@ In this task, you will sign in as Sara Perez, for the first time.
 
 1. You are now prompted to Update your password. In the Current password field, enter the temporary password that you have provided earlier.
 
-1. In the New password field enter, **SC900-Lab**.  In the Confirm your password field enter SC900-Lab, then select Sign in.  **Note**: As a best practice, a more secure password should be used. This password is chosen, for expediency and only for the purpose of this lab.
+1. In the New password field enter, **SC900-Lab**.  In the Confirm your password field enter **SC900-Lab**, then select **Sign in**.
+   >**Note** : As a best practice, a more secure password should be used. This password is chosen, for expediency and only for the purpose of this lab.
 
      ![](../Images/sc900-image20.png)
 
+1. In the **Action Required** tab, choose **Ask later**. If you're prompted to stay signed in, you can select **No**.
+
 1. You should now be successfully signed in to Microsoft 365.
 
-     ![](../Images/T4-S4a.png)
+     ![](../Images/sc-900-dec24-lab1-6.png)
 
 1. **Sign out** from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then close all the browser windows.
 

@@ -126,7 +126,7 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
 1. Sign in as Diego Siciliani.
    
     - In the Sign in window enter **diegos@azureholxxxx.onmicrosoft.com** (user email id of the Diego Siciliani) then select **Next**.
-    - Enter the temporary password that you noted from the previous task and select **Sign in**.  Select **Sign in**.
+    - Enter the temporary password that you noted from the previous task and select **Sign in**.
     - Since the password you entered was only a temporary password you need to update it now. Enter the current password.  For the new password and confirm password fields enter **SC900-Lab** and select **Sign in**
     - When prompted to stay signed- in, select **Yes**.
 
@@ -196,7 +196,7 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
 1. From the left navigation panel, select **Groups**.
 
 1. Notice the groups to which Bianca is already assigned. From the top of the page, select **+ Add Memberships**. From the list of groups, select **Mark 8 Project Team** 
-   > **Select**.
+and then **Select** button.
 
     ![](../Images/Asc-900-image74.png)
 
