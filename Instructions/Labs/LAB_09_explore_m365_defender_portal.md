@@ -74,11 +74,11 @@ In this task, you will explore how Microsoft Secure Score can help an organizati
 
 1. From the Welcome page of the Microsoft 365 Defender portal, select **Microsoft Secure Score**, from the title bar of the card (the text will turn blue).  Alternatively, you can select **Secure score** from the left navigation panel.
  
-     ![Picture 1](../Images/L9-T2-S1.png)
+     ![Picture 1](../Images/L9T2S1-2412.png)
 
 1. The Microsoft Secure Score page opens to the Overview tab.  Microsoft Secure Score is a measurement of an organization's security posture. Your organization’s secure score is shown as a percentage, along with the number of points you've achieved out of the total possible points and broken down by category. Select **Include**, next to where it says Your secure score.  A small window opens that allows you to include the achievable score, Planned score, and Current license score in the breakdown of your organization's secure score.  Select  **Include** again to close the window.
 
-     ![Picture 1](../Images/L9-T2-S2.png)
+     ![Picture 1](../Images/L9T2S2-2412.png)
 
 1. The **overview** page also includes **top Recommended actions**, **comparison**, **history**, and additional resources.
 

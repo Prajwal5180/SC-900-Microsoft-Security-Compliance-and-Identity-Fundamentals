@@ -47,7 +47,9 @@ In this task you will explore the Service Trust portal and the different types o
    * Password: <inject key="AzureAdUserPassword"></inject>
 
      ![](../Images/service-portal-login2.png)
-        
+
+   >**Note**:  If an **Action required** window appears, click on **Ask later**.
+   
 1. if prompted, select **Agree** to accept the Microsoft Non-Disclosure Agreement for Compliance Materials.
 
 1. Note the description on the top of the page and available applicable documents. Select the **ellipsis(...) (1)** under the More Options and then select **Save to Library (2)**.
@@ -86,7 +88,7 @@ In this task you will explore the Service Trust portal and the different types o
    
    ![](../Images/service-portal-4.png)
     
-1. From the Service Trust Portal home page, scroll down to the **Resource for your Organization (1)** category. Select **Resources for your Organization (2)**.  Note that any documents listed here are based on your organization's subscription and permissions.    
+1. From the Service Trust Portal home page, scroll down to the **Resources for your Organization (1)** category. Select **Resources for your Organization (2)**.  Note that any documents listed here are based on your organization's subscription and permissions.    
 
    ![](../Images/service-portal-8.1.png)
    
