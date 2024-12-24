@@ -143,7 +143,7 @@ In this task, you’ll create a network security group, assign it to the VM’s 
 
 1. Navigate to SC900-WinVM Overview page, under **Networking**  select **Network settings** from the left navigation pane and then **Inbound port rule** from the **+ Create port rule** drop down.
 
-    ![Picture 1](../Images/sc900-lab5-3.png)
+    ![Picture 1](../Images/L5T2S10.png)
 
 1. The default inbound rules deny all inbound traffic that is not from a virtual network or an Azure load balancer so you need to set up a rule to allow inbound RDP 
     traffic (traffic on port 3389). Recall that you cannot remove the default rules, but you can override them by creating rules with higher priorities.
@@ -221,7 +221,7 @@ In this task, you’ll configure outbound internet traffic for the VM to ensure 
 
 1. Select **Outbound port rule** from the **+ Create port rule** drop down
 
-   ![Picture 1](../Images/sc900-lab5-4.png)
+   ![Picture 1](../Images/L5T4S3.png)
 
 1. On the Add outbound security rule page, specify the following settings:
 
