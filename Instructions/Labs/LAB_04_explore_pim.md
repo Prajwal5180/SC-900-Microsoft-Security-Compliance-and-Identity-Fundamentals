@@ -2,14 +2,14 @@
 # Lab-04: Explore identity governance in Microsoft Entra with Privileged Identity management
 
 ## Lab scenario
-In this lab, you will explore some of the basic functionality of Privileged Identity Management (PIM). PIM does require Microsoft Entra ID P2 license.  In this lab, you, as the admin, will configure one of your users, Diego Siciliani, with an Microsoft Entra user administrator role, through Privileged ID management (PIM).   With user admin privileges, Diego will be able to create users and groups manage licenses and more. Both the admin and the user, Diego, must be configured for the Microsoft Entra ID P2 license.
+In this lab, you will explore some of the basic functionality of Privileged Identity Management (PIM). PIM does require Microsoft Entra ID P2 license.  In this lab, you, as the admin, will configure one of your users, Diego Siciliani, with Microsoft Entra user administrator role, through Privileged ID management (PIM).   With user admin privileges, Diego will be able to create users and groups manage licenses and more. Both the admin and the user, Diego, must be configured for the Microsoft Entra ID P2 license.
 
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
 
 + Task 1: Reset the password for the user
-+ Task 2: Assign an Microsoft Entra role in Privileged Identity Management
++ Task 2: Assign Microsoft Entra role in Privileged Identity Management
 + Task 3: Sign in to the Microsoft Entra Admin Center to access the Privileged Identity Management
 
 ## Estimated timing: 60 minutes
@@ -56,9 +56,9 @@ In this task, you, as the admin, will reset the password for the user Diego Sici
 
 1. Keep the browser page open, as you will in the subsequent tasks.
 
-## Task 2: Assign an Microsoft Entra role in Privileged Identity Management
+## Task 2: Assign Microsoft Entra role in Privileged Identity Management
 
-In this task, you, as the admin, will assign Diego an Microsoft Entra role in Privileged Identity Management.
+In this task, you, as the admin, will assign Diego Microsoft Entra role in Privileged Identity Management.
 
 1. Open the browser tab for the home page of the Microsoft Entra admin center.  
 
@@ -102,7 +102,7 @@ In this task, you, as the admin, will assign Diego an Microsoft Entra role in Pr
 
 1. From the top of the page, select **Settings**.
 
-1. In the Role setting details for the User Administrator, notice the different options.Note that the setting to “Require justification on activation” is set to yes, and “On activation, require Azure MFA” is also set. You will see both of these in the next task when Diego activates the role.  Also, note that “Require approval to activate” is set to No. Leave all the settings to their default values. Close the page by selecting the **X** on the top right corner of the screen.
+1. In the Role setting details for the User Administrator, notice the different options. Note that the setting to “Require justification on activation” is set to yes, and “On activation, require Azure MFA” is also set. You will see both in the next task when Diego activates the role.  Also, note that “Require approval to activate” is set to No. Leave all the settings to their default values. Close the page by selecting the **X** on the top right corner of the screen.
 
    ![](../Images/settings_new10.png)
 
@@ -126,7 +126,7 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
 1. Sign in as Diego Siciliani.
    
     - In the Sign in window enter **diegos@azureholxxxx.onmicrosoft.com** (user email id of the Diego Siciliani) then select **Next**.
-    - Enter the temporary password that you noted from the previous task and select **Sign in**.  Select **Sign in**.
+    - Enter the temporary password that you noted from the previous task and select **Sign in**.
     - Since the password you entered was only a temporary password you need to update it now. Enter the current password.  For the new password and confirm password fields enter **SC900-Lab** and select **Sign in**
     - When prompted to stay signed- in, select **Yes**.
 
@@ -196,7 +196,7 @@ In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin cent
 1. From the left navigation panel, select **Groups**.
 
 1. Notice the groups to which Bianca is already assigned. From the top of the page, select **+ Add Memberships**. From the list of groups, select **Mark 8 Project Team** 
-   > **Select**.
+and then **Select** button.
 
     ![](../Images/Asc-900-image74.png)
 

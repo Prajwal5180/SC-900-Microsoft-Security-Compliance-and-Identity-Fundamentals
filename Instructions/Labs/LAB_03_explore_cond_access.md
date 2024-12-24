@@ -69,11 +69,11 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
 1. Open the browser tab to the home page of the Microsoft Entra admin center. If you previously closed the browser tab, open Microsoft Edge and in the address bar enter **https://entra.microsoft.com** and sign in. 
 
-1. From the left navigation pane, expand **Protection** then select **Conditional Access** and click on **+ Create new policy**. 
+1. The Conditional access overview page is displayed. When you land on the overview page, the Getting started tab is selected (underlined). Select the **Overview** tab. Here you will see tiles showing the Policy summary and general alerts. From the left navigation panel, select **Policies**. Select **+ New policy**.
 
-   ![](../Images/Asc-900-image7.png)
+   ![](../Images/sc-900-dec24-lab3-3.png)
    
-   >**Note**: If you see a message at the bottom "It looks like you're about to manage your organization's security configurations. That's great! You must first disable security defaults before enabling a Conditional Access policy", click on **Disable security defaults**, and select **Disable** from the drop down menu.
+   >**Note**: If you see a message at the bottom "It looks like you're about to manage your organization's security configurations. That's great! You must first disable security defaults before enabling a Conditional Access policy", click on **Disable security defaults**, and select **Disabled** from the drop down menu. Select any of the reason listed and click on **Save** and then **Disable**.
    > ![](../Images/disable-security-defaults.png)
 
 1. Enter the following details,
@@ -93,7 +93,7 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
     ![](../Images/sc900lab3-image4.png)
 
 1. Under **Target resources**, select **No target resources are selected (1)**. You will now see the option to Include or Exclude cloud apps or user actions.  Make sure 
-   **Resources (formerly Cloud apps) (2)** is highlighted and **Include** is selected (underlined), then select **Select apps (3)**.  under **Select** click on **None (4)**, then the window 
+   **Resources (formerly Cloud apps) (2)** is highlighted and **Include** is selected (underlined), then select **Select resources (3)**.  under **Select** click on **None (4)**, then the window 
    to Select Resources opens.
 
      ![](../Images/Asc-900-image8upd.png)
@@ -102,13 +102,13 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
     
     ![](../Images/Asc-900-image9upd.png)
 
-1. Under Network, select **Not Configured**.  Review the options but do not select any options.
+1. Under Network, select **Not Configured**.  Make the configure to **Yes** Under Include, select **Any network or location** under. Review the options but do not select any options
    
     ![](../Images/Asc-900-image10.png)
 
     ![](../Images/Asc-900-image11.png)
 
-1. Under Conditions, select **1 conditions selected**.  Notice the different options you can configure.  Through the policy, you can control user access based on signals from conditions like risk, device platform, location, client apps, or device state.  For example, you could include a condition for the policy to apply for any location except selected or trusted locations such as your headquarters’ network.  For this policy, do not set any conditions.
+1. Under Conditions, select **1 conditions selected**. Notice the different options you can configure. Through the policy, you can control user access based on signals from conditions including: user risk, sign-in risk, device platform, location, client apps, or filter for devices. Explore these configurable options, but do not set any conditions.
 
 1. Now you will set the access controls.  Under Grant, select **0 controls selected**.
 
@@ -135,14 +135,14 @@ In this task, you will see the impact of the conditional access policy, from the
 1. Sign in as Debra Burger,
     1. In the Sign in window enter **debrab@xxxxxx.onmicrosoft.com** (where xxxxxx can be found in the Environment Details Tab in the Lab Guide section) then select **Next**.
     1. Enter the password you noted in the earlier task. Select **Sign in**.
-    1. Since the password provided when you, as the admin, reset the password is temporary you need to update your password.  Enter the current password, then for the new password and confirm password fields enter **SC900-Lab**.
+    1. Since the password provided when you, as the admin, reset the password is temporary you need to update your password.  Enter the current password, then for the new password and confirm password fields enter **SC900-Lab** and select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**
 
 1. You should be successfully logged in to your Microsoft 365 account. 
 
 1. Now you will attempt to sign in to an application that meets the criteria for Conditional Access policy.  Open Microsoft Edge and in the address bar, enter **https://portal.azure.com**. 
 
-1. A pop-up window appears indicating "You don't have access to this."  This is a result of the conditional access policy that blocks your access to all Microsoft admin portals.
+1. A pop-up window appears indicating **You cannot access this right now**.  This is a result of the conditional access policy that blocks your access to all Microsoft admin portals.
 
    ![](../Images/no-access.png)
 

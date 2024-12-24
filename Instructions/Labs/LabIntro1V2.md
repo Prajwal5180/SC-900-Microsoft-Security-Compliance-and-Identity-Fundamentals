@@ -14,10 +14,16 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 ## Exploring Your Lab Resources
  
-To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
+To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
  
 ![Explore Lab Resources](../Images/env.png)
- 
+
+## Lab Guide Zoom In/Zoom Out
+
+To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+
+![Adjust Zoom](../Images/zoom-2412.png)
+
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
@@ -65,7 +71,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
 4. If prompted to **Stay signed in**, you can click **No.**
  
-5. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Maybe Later** to skip the tour.
+5. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Cancel** to skip the tour.
  
 6. Click **Next** from the bottom right corner to embark on your Lab journey!
  
@@ -102,4 +108,3 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 1.  When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
  
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
-
