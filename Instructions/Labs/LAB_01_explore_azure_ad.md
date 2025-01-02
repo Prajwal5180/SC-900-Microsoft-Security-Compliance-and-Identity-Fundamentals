@@ -58,7 +58,7 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 
     ![](../Images/sc900-image7.png)
 
-1. Select More Services, then select Microsoft Entra ID. If you don't immediately see it, you can enter Microsoft Entra ID on the blue search bar and select Microsoft Entra ID from result list.
+1. Select More Services, then select **Microsoft Entra ID**. If you don't immediately see it, you can enter **Microsoft Entra ID** on the blue search bar and select **Microsoft Entra ID** from result list.
 
     ![](../Images/T1-S9a.png)
 
@@ -232,9 +232,9 @@ In this task, you will sign in as Sara Perez, for the first time.
 
 ## Review
 In this lab, you have completed:
-- Accessing Microsoft Entra ID through the Microsoft 365 Admin portal and through the Azure portal
-- Creating a basic group
-- Create a new user in the Microsoft Entra ID and explore some of the services
-- Sign in to the user first time
+- Accessed Microsoft Entra ID through the Microsoft 365 Admin portal and through the Azure portal
+- Created a basic group
+- Created a new user in the Microsoft Entra ID and explored some of the services
+- Signed in to the user first time
 
 ## You have successfully completed the lab
