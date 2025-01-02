@@ -62,7 +62,7 @@ In this lab, you will complete the following tasks:
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 <validation step="e6ffbb4b-3ecb-42af-9dcd-0c1044de2a66" />
-    
+
 ## Task 2: Built-in Microsoft Sentinel roles
 
 With the Microsoft Sentinel instance created, it is important that users that will have responsibility to support Microsoft Sentinel have the necessary permissions.  This is done by assigning the designated user the required role permissions. In this task, you'll view the available, built-in Microsoft Sentinel roles.
