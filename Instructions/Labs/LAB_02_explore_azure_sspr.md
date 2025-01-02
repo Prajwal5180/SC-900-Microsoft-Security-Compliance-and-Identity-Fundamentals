@@ -15,7 +15,7 @@ In this lab, you will complete the following tasks:
 + Task 4: Process of resetting your password
 + Task 5: View the Audit logs and the Usage & insights data associated with password reset.
 
-## Estimated timing: 15-20 minutes
+## Estimated timing: 30 minutes
 
 ## Architecture diagram
 
@@ -197,13 +197,12 @@ In this task, you as user **Adele Vance**, will go through the registration proc
 
     >**Note**:  An alternative to having users do the registration, themselves, is for admins to directly configure the authentication methods when they add a user. This requires admins to know and set the ​phone numbers and email addresses that users use to perform a self-service password reset and reset a user’s password.
 
-   ![](../Images/sc-13.png) 
-
+   ![](../Images/sc-13.png)
 
 1. Now, Enter the phone number where you can receive a text code and select the **Next** button.
 
    ![](../Images/sc-900-dec24-lab2-2.png)
-  
+
 1. A new window opens indicating a code was just sent to the phone you entered **(1)**.  Enter the code you are received and select **Next (2)**.
 
    ![](../Images/enter-code(1).png)
