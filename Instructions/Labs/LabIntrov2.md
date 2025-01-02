@@ -78,11 +78,11 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
    ![](../Images/asklater.png)
 
-6. If prompted to stay signed in, you can click "No."
+6. If prompted to stay signed in, you can click **No**.
 
    ![](../Images/Sign-in-no.png)
  
-8. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Cancel" to skip the tour.
+8. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **Cancel** to skip the tour.
 
    ![](../Images/Azure-cancel-tour.png)
  

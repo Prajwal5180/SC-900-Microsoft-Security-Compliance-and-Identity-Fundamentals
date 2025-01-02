@@ -23,51 +23,51 @@ To access Core eDiscovery or be added as a member of a Core eDiscovery case, a u
 
 1. If you not already login to admin center, in the address bar of Microsoft edge enter **[admin.microsoft.com](https://admin.microsoft.com)**.
 
-2. On **Sign in** blade, you will see a login screen, in that enter the following email/username 
+1. On **Sign in** blade, you will see a login screen, in that enter the following email/username 
  
     * Email/Username: **<inject key="AzureAdUserEmail"></inject>** and then click on **Next**.
 
     * Password: **<inject key="AzureAdUserPassword"></inject>** and then click on **signin**
 
-3. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
+1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
     ![](../Images/sc-900-lab15-1-01.png)
 
-4. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview portal.  
+1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview portal.  
 
     ![](../Images/sc-900-lab15-1-02upd.png)
 
-5.  The Compliance portal is expired so click on **Go to new portal** to go to the new Microsoft Purview portal as highlighted in below image.
+1.  The Compliance portal is expired so click on **Go to new portal** to go to the new Microsoft Purview portal as highlighted in below image.
 
     [](../Images/E12T1S7.png)
 
-6.  A new browser page opens to the **"Welcome page of the Microsoft Purview portal!"**, click on **"I agree to the terms of data flow disclosure and Privacy Statements"** and select **"Get started"**.
+1.  A new browser page opens to the **"Welcome page of the Microsoft Purview portal!"**, click on **"I agree to the terms of data flow disclosure and Privacy Statements"** and select **"Get started"**.
 
     ![](../Images/pureviewwelcome.png)
 
-7. From the left navigation panel, select **Settings**, expand **Roles & scopes** then select **Role groups**.
+1. From the left navigation panel, select **Settings**, expand **Roles & scopes** then select **Role groups**.
 
     ![](../Images/sc-900-lab14-002upd.png)
 
-8. In the search field, on the top, right of the page, enter **eDiscovery** then hit Enter on your keyboard.  Select **eDiscovery Manager**.
+1. In the search field, on the top, right of the page, enter **eDiscovery** then hit Enter on your keyboard.  Select **eDiscovery Manager**.
 
     ![Picture 1](../Images/Asc-900-image36upd.png)
     
-9. In the window that opens, notice how there are two sub-groups, eDiscovery Manager and eDiscovery Administrator. For this lab, we will add members to the eDiscovery Administrator sub-group.
+1. In the window that opens, notice how there are two sub-groups, eDiscovery Manager and eDiscovery Administrator. For this lab, we will add members to the eDiscovery Administrator sub-group.
 
-10. Select **Edit** 
+1. Select **Edit** 
 
     ![](../Images/image1upd.png)
 
-11. On **eDiscovery Manager** page, select **Next** on  **Manage eDiscovery Manager**.
+1. On **eDiscovery Manager** page, select **Next** on  **Manage eDiscovery Manager**.
 
    ![](../Images/image2.png)
 
-12. On **Manage ediscovery Administrator**, click on **Choose User (1)** and select **ODL_User **<inject key="DeploymentId"></inject>** and Megan Bowen (2)** from the list and click on **Select (3)** and **Next**.
+1. On **Manage ediscovery Administrator**, click on **Choose User (1)** and select **ODL_User **<inject key="DeploymentId"></inject>** and Megan Bowen (2)** from the list and click on **Select (3)** and **Next**.
 
    ![](../Images/image3.png)
 
-13. On **Review and finish** page, select **Save**.
+1. On **Review and finish** page, select **Save**.
 
    ![](../Images/image4.png)
 
