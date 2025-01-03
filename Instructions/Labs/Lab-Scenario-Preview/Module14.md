@@ -1,4 +1,4 @@
-# Lab Scenario Preview: Lab-14: Explore Insider Risk Management in Microsoft Purview
+# Lab Scenario Preview: Lab-14: Create policy
 
 ## Lab overview
 
@@ -11,7 +11,7 @@ After completing this lab, you will be able to:
 - Process of setting up an insider risk policy
 - Enable the Audit log search capability
 - Apply to all insider risk management policies
-- You will walk through the creation of a policy
+- Create policy
 
 ## Architecture Diagram
 

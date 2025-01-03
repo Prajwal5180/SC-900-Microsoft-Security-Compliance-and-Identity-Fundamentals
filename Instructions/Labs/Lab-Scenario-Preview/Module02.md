@@ -1,4 +1,4 @@
-# Lab Scenario Preview: Lab-02: Explore Microsoft Entra ID Authentication with a self-service password reset
+# Lab Scenario Preview: Lab-02: Microsoft Entra self-service password reset
 
 ## Lab overview
 

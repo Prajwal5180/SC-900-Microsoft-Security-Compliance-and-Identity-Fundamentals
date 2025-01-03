@@ -1,4 +1,4 @@
-# Lab Scenario Preview: Lab-01: Explore Microsoft Entra ID
+# Lab Scenario Preview: Lab-01: Explore Microsoft Entra ID User Settings
 
 ## Lab overview
 

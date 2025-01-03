@@ -1,4 +1,4 @@
-# Lab Scenario Preview: Lab-04: Explore identity governance in Microsoft Entra ID with Privileged Identity management.
+# Lab Scenario Preview: Lab-04: Explore Privileged Identity management
 
 ## Lab overview
 
@@ -9,8 +9,8 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 After completing this lab, you will be able to:
 
 - Reset the password for the user
-- Assign an Microsoft Entra ID role in Privileged Identity Management
-- Sign in to the Azure Portal, to access the Privileged Identity Management
+- Assign Microsoft Entra role in Privileged Identity Management
+- Sign in to the Microsoft Entra Admin Center to access the Privileged Identity Management
 
 ## Architecture Diagram
 

@@ -1,4 +1,4 @@
-# Lab Scenario Preview: Lab-12: Explore the Microsoft Purview compliance center & Compliance Manager
+# Lab Scenario Preview: Lab-12: Explore the Microsoft Purview portal and Compliance Manager
 
 ## Lab overview
 

@@ -1,4 +1,4 @@
-# Lab Scenario Preview: Lab-09: Explore the Microsoft 365 Defender portal
+# Lab Scenario Preview: Lab-09: Explore the Microsoft Defender portal
 
 ## Lab overview
 

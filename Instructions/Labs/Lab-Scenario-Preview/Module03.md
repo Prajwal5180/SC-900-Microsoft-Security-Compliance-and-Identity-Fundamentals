@@ -1,4 +1,4 @@
-# Lab Scenario Preview: Lab-03 : Explore access management in Microsoft Entra ID with Conditional
+# Lab Scenario Preview: Lab-03 : Microsoft Entra Conditional Access
 
 ## Lab overview
 

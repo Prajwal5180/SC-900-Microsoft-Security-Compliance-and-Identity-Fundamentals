@@ -1,4 +1,4 @@
-# Lab Scenario Preview: Lab-08: Explore Microsoft Cloud App Security
+# Lab Scenario Preview: Lab-08: Explore Microsoft Defender for Cloud Apps
 
 ## Lab overview
 
@@ -11,7 +11,7 @@ After completing this lab, you will be able to:
 - Explore Cloud Discovery
 - Explore the Cloud app catalog
 - Explore the Activity log and Files
-- Explore the policies and alerts pages in Microsoft Cloud app security
+- Explore Policies
 
 ## Architecture Diagram
 

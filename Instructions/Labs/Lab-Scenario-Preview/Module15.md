@@ -1,4 +1,4 @@
-# Lab Scenario Preview: Lab-15: Explore the Core eDiscovery workflow
+# Lab Scenario Preview: Lab-15: Explore eDiscovery
 
 ## Lab overview
 
